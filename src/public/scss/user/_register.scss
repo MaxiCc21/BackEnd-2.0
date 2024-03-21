@@ -1,0 +1,96 @@
+.background-register{
+    height: 30vh !important;
+    background-image: url('https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg'); 
+    background-size: cover;
+    background-position: center;
+    filter:  opacity(70%);
+    -webkit-filter:  opacity(70%);
+    -moz-filter:  opacity(70%);
+}
+
+.register-data-section{
+    display: flex;
+    justify-content: center
+}
+
+.form-container{
+    width: 85%;
+    background-color: rgb(0, 221, 255);
+    margin: 20px 0px 20px 0px;
+}
+
+.form-container h2 {
+    margin-bottom: 0px !important;
+}
+.form-container p {
+    margin-top: 0px !important;
+}
+
+input[name="dateRegister"]{
+    width: 150px;
+}
+
+.div-single-data-register{
+    margin: 0px 15px 40px 15px;
+}
+
+.div-emt{
+    height:60.7812px;
+    width: 172px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-top-section{
+    display: flex;
+}
+.form-mid-section{
+    display: flex;
+}
+.form-bottom-section{
+    display: flex;
+}
+.form-bottom-section{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+ input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+ input[type="email"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+

@@ -1,0 +1,16 @@
+
+.usersession-form-btn {
+    width: 100px;
+    border-radius: 5px; 
+    background-color: $main-btn-color; 
+    color: white; 
+    padding: 5px 10px; 
+    border: none; 
+    cursor: pointer; 
+    padding: 10px;
+    width: 100%;
+}
+
+.usersession-form-btn:hover {
+    background-color: $main-btn-hoover-color;
+}

@@ -1,0 +1,61 @@
+<main>
+    <section>
+        <div class="main-show-background background-register"></div>
+    </section>
+    <section class="register-data-section">
+        <div class="form-container">
+            <h2>Creá tu Cuenta Aerolíneas</h2>
+            <p>Completá los datos como figuran en tu documento de identidad para registrarte en Aerolíneas.</p>
+            <form action="/session/registro" method="post" id="userregister-form">
+            
+                <div class="form-top-section">
+                    <div class="div-flex-column div-single-data-register">
+                        <label for="name">Nombre/s</label>
+                        <input type="text" name="name" placeholder="Ingresar nombre/s..." >
+                    </div>
+                    <div class="div-flex-column div-single-data-register">
+                        <label for="lastname">Apellido</label>
+                        <input type="text" name="lastname" placeholder="Ingresar apellido..." >
+                    </div>
+                    <div class="div-flex-column div-single-data-register">
+                        <label for="dateOfBirth">Fecha de nacimiento</label>
+                        <input type="date" name="dateOfBirth" id="dateOfBirth" >
+                    </div>
+                </div>
+                
+                <div class="form-mid-section">
+                    <div class="select-wrapper" style="margin: 0pc;">
+                        <label for="docType">Tipo de documento </label>
+                        <select id="docType" name="docType" >
+                            <option value="D.N.I">D.N.I</option>
+                            <option value="pasport">Pasaporte</option>
+                        </select>
+                    </div>
+                    
+                    <div class="div-flex-column div-single-data-register">
+                        <label for="docNumber ">Número de documento</label>
+                        <input type="text" name="docNumber" placeholder="Ingresar número" >
+                    </div>
+                </div>
+
+                <div class="input-wrapper form-bottom-section">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" name="email" >
+                </div>
+
+                <div class=" form-buttom-section">
+
+                    <button type="submit">Aceptar</button>
+
+                </div>
+         
+            </form>
+        </div>
+    </section>
+    
+
+    <script src="/static/js/userRegister.js"></script>
+
+
+
+</main>

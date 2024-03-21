@@ -1,0 +1,49 @@
+
+.usersession-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+
+.main-show-background{
+  height: 80vh;
+  background-size: cover; 
+  background-position: center;
+
+}
+
+.usersession-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "usersession-background";
+  height: 80vh;
+  background-image: url('https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg'); /* Ruta a tu imagen de fondo */
+  background-size: cover; 
+  background-position: center;
+  justify-items: end;
+  align-items: center;
+  
+  filter:  opacity(90%);
+  -webkit-filter:  opacity(90%);
+  -moz-filter:  opacity(90%);
+}
+
+  .usersession-background {
+    background-color: rgba(255, 255, 255, 0.549);
+    display: flex;
+    height: 300px;
+    padding: 20px;
+    margin: 15px;
+    width: 400px;
+    align-items: center;
+  }
+  

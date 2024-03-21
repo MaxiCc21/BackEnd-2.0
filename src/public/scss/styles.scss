@@ -1,2 +1,16 @@
+// Otros
+@import "normalize";
 @import "vars";
+
+// Componentes
+@import "navbar";
+@import "footer";
+@import "button";
+@import "searchbar";
+// -------------
+
+// Layout
 @import "home";
+@import "user/session";
+@import "user/register"
+// -------------

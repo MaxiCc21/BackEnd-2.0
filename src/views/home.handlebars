@@ -1,1 +1,69 @@
-<h1>Funca</h1>
+
+<main>
+
+    <section class="home-background main-show-background">
+        
+    </section>
+
+    <section class="searchBar-section">
+        <div class="searchBar-container">
+            <div class="search-container">
+
+            <form  id="searchFlyForm" action="/searchfly">
+                <div class="searchFlyForm-top-section">
+                    <div class="one-way-div flightType-div">
+                        <label for="flightType">Ida</label>
+                        <input type="checkbox" name="flightType" id="flightType" value="ONE_WAY" >
+                    </div>
+                    <div class="round-trip-div flightType-div">
+                        <label for="flightType">Ida y vuelta</label>
+                        <input type="checkbox" name="flightType" id="flightType" value="ROUND_TRIP" >
+                    </div>                
+                </div>
+                <div class="searchFlyForm-middle-section">
+            
+                    {{!-- <div class="input-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                        <input type="date">
+                    </div> --}}
+
+                    <div class="div-flex-column ">
+                        <label for="for">Origen</label>
+                        <input type="text" id="searchInput" name ="for" placeholder="Buscar..." required>
+                        <div id="searchDropdown" class="dropdown-content"></div>
+
+                    </div>
+
+            
+                    <div class="select-wrapper">
+                        <label for="ticketClass">Clase </label>
+                        <select id="ticketClass" name="ticketClass" >
+                            <option value="economy">Economy</option>
+                            <option value="business">Business</option>
+                        </select>
+                    </div>
+
+                    <div class="div-flex-column ">
+                        <label for="NumberOfTickets">Pasajeros</label>
+                        <input type="number" id="NumberOfTickets" name="not" required min="1" max="4" onkeydown="return false;">
+                    </div>
+          
+                    <div class="input-icon div-flex-column ">
+                        <label for="myDateInput">Partida</label>
+                        <input type="date" id="myDateInput" name="myDateInput" onkeydown="return false;">
+                    </div>
+
+
+              
+                </div>
+
+                <div class="searchFlyForm-bottom-section">
+                    <input type="submit"  value="Buscar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<script src="static/js/home.js"></script>

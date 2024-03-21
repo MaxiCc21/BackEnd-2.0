@@ -1,1 +1,22 @@
-html{background-color: red;}
+.home-background{
+    background-image: url("https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    // background-image: url("https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 80vh !important;
+}
+
+.searchBar-section {
+    height: 50vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;}
+
+.searchBar-container {
+    background-color: brown;
+
+    height: 90%;
+    width: 80%;
+    margin-top: -149px; 
+}
+
+
+
