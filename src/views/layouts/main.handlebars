@@ -8,12 +8,23 @@
 </head>
 
 <header>
+
+
+
+
     <nav>
-        <a href="/home">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-        <a href="/session/acceso">Iniciar sesion</a>
+        {{#if userSession}}
+            <a href="/home">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        {{else}}
+            <a href="/home">Inicio</a>
+            <a href="#">Acerca de</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <a href="/session/acceso">Iniciar sesion</a>
+        {{/if}}
     </nav>
     
 </header>

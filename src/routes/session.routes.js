@@ -33,6 +33,13 @@ router.post("/acceso", async (req,res) => {
 
 
         if (userExist.password === password) {
+
+            req.session.user = {
+                id: userExist._id,
+                email: userExist.email,
+                name: userExist.name
+            }
+
             return res.send({
                 status:"ok",
                 ok:true,
@@ -52,10 +59,6 @@ router.post("/acceso", async (req,res) => {
                 statusMessage:"Ocurrio un error inesperado /n Por favor intente nuevamente mas tarde"
             })
     }
-
-
-   
-
 })
 
 

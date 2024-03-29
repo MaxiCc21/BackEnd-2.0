@@ -1,5 +1,12 @@
 
 <main>
+    {{#if userSession}}
+    <section>
+        Hola {{{toUperCaseHelper userSession.name}}} Bienvenido
+    </section>
+    {{/if}}
+
+
 
     <section class="home-background main-show-background">
         
@@ -52,11 +59,8 @@
                         <label for="myDateInput">Partida</label>
                         <input type="date" id="myDateInput" name="myDateInput" onkeydown="return false;">
                     </div>
-
-
-              
                 </div>
-
+                
                 <div class="searchFlyForm-bottom-section">
                     <input type="submit"  value="Buscar">
                 </div>
