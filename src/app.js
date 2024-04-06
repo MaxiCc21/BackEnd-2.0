@@ -1,7 +1,9 @@
 const express = require('express')
 const bodyParser = require('body-parser');
-const app = express()
+const MongoStore = require("connect-mongo")
 
+const app = express()
+const URL_MONGO =  "mongodb+srv://maxi21498:Morethanwords21@cluster0.2z3gkua.mongodb.net/AirlFly"
 
 const viewsRouter = require("./routes/views.routes")
 const sessionRouter = require("./routes/session.routes")
@@ -22,8 +24,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // configuracion de las cookies 
 app.use(cookieParser('MyCookiePaswordCoder'));
 
-// configuracion se la secion de usuario
+
 app.use(session({
+    store: MongoStore.create({
+      mongoUrl: URL_MONGO,
+      ttl: 10 * 60
+    }),
     secret: 'secret-key-session-Cod3r', 
     resave: false, 
     saveUninitialized: false 
@@ -31,9 +37,17 @@ app.use(session({
 
 //--------------- Handlebars ---------------
 const helpers = {
-  toUperCaseHelper : function name(str) {
+  toUperCaseHelper : function (str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
+  },
+
+  FormDataHelper : function (date) {
+    const day = date.getDate().toString().padStart(2, '0');
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const year = date.getFullYear();
+    return `${day}/${month}/${year}`;
   }
+
 }
 
 for (const helperName in helpers) {
@@ -52,8 +66,6 @@ const port = 9090
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`)) 
 
-
-const URL_MONGO =  "mongodb+srv://maxi21498:Morethanwords21@cluster0.2z3gkua.mongodb.net/AirlFly"
 
 try {
     mongoose.connect(URL_MONGO)

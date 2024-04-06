@@ -1,8 +1,9 @@
 
 <main>
     {{#if userSession}}
-    <section>
-        Hola {{{toUperCaseHelper userSession.name}}} Bienvenido
+    <section class="session-section">
+        <span>Hola {{{toUperCaseHelper userSession.name}}} Bienvenido</span>
+        <a href="/session/logout">Cerrar sesion</a>
     </section>
     {{/if}}
 

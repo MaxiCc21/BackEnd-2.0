@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url('https://dummyimage.com/600x400/000/fff');
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+  }
+  
+  .user-details {
+    flex-grow: 1;
+  }
+  
+  .user-details h2 {
+    margin-top: 0;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+  }

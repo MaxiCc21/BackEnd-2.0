@@ -4,8 +4,6 @@ const DestinationsModel = require("../models/destinations.model");
 const router = Router()
 
 
-
-
 router.get("/get",async (req,res) => {
     try {
         const destinationData = await DestinationsModel.find()

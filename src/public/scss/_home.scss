@@ -12,11 +12,16 @@
 
 .searchBar-container {
     background-color: brown;
-
     height: 90%;
     width: 80%;
     margin-top: -149px; 
 }
 
+.session-section{
+    display: flex;
+    justify-content: center;
+}
 
-
+.session-section a {
+    padding-left: 60px ;
+}

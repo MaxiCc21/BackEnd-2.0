@@ -11,9 +11,8 @@ router.get("/acceso",(req,res) => {
         title:"Usuario"
     }
     
-    res.render("user/user",options)
+    res.render("user/user_login",options)
 })
-
 
 
 router.post("/acceso", async (req,res) => {
@@ -71,6 +70,7 @@ router.get("/registro",(req,res) => {
     res.render("user/user_register",options)
 })
 
+
 router.post("/registro", async (req, res) => {
     try {
         const { email } = req.body;
@@ -123,9 +123,38 @@ router.delete("/registro/:email",async (req,res) => {
 })
 
 
+router.get("/logout", (req, res) => {
+    req.session.destroy((err) => {
+        if (err) {
+            return res.status(500).send("Error al cerrar sesión");
+        }
+        res.redirect("/home");
+    });
+});
 
 
+router.get("/userdata",async (req,res) => {
+    
 
+    try {
+        const userSession = req.session.user || undefined
+        const {_id} = req.session.user
+    
+        const userData = await UserModel.findOne(_id).lean();
+    
+        
+    
+        const options = {
+            title:"Datos de usuario",
+            userData,
+            userSession
+        }
+    
+        res.render("user/userData",options) 
+    } catch (err) {
+        res.status(500).send("Algo salio mal")
+    }
+})
 
 
 

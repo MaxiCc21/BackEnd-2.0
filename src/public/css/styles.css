@@ -581,6 +581,15 @@ input[type=date]:focus {
   margin-top: -149px;
 }
 
+.session-section {
+  display: flex;
+  justify-content: center;
+}
+
+.session-section a {
+  padding-left: 60px;
+}
+
 .usersession-form {
   width: 100%;
   height: 100%;
@@ -711,4 +720,36 @@ input[type=email] {
 input[type=email]:focus {
   border-color: #007bff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: url("https://dummyimage.com/600x400/000/fff");
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.user-details {
+  flex-grow: 1;
+}
+
+.user-details h2 {
+  margin-top: 0;
+}
+
+.user-details p {
+  margin: 5px 0;
 }/*# sourceMappingURL=styles.css.map */
