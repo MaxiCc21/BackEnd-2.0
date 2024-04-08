@@ -1,5 +1,6 @@
 const { Router } = require("express");
 const UserModel = require("../models/user.model");
+const { hashPassword, comparePassword } = require("../utils/bcrypt");
 
 
 const router = Router()
@@ -31,7 +32,7 @@ router.post("/acceso", async (req,res) => {
         }
 
 
-        if (userExist.password === password) {
+        if ( await comparePassword(password,userExist.password)) {
 
             req.session.user = {
                 id: userExist._id,
@@ -75,12 +76,18 @@ router.post("/registro", async (req, res) => {
     try {
         const { email } = req.body;
 
-        const newUserData = {
+        let newUserData = {
             ...req.body,
             password: "Pass1234"
         };
 
-   
+        const encryptedPassword = await hashPassword(newUserData.password)
+
+        newUserData = {
+            ...req.body,
+            password: encryptedPassword
+        };
+
         const createNewUser = await UserModel.findOneAndUpdate(
             { email },
             newUserData,
