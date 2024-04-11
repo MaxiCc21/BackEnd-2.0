@@ -712,7 +712,7 @@ input[type=email] {
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
-  width: 100%;
+  width: 150px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s, border-color 0.3s;
 }

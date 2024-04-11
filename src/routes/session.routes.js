@@ -145,11 +145,10 @@ router.get("/userdata",async (req,res) => {
 
     try {
         const userSession = req.session.user || undefined
-        const {_id} = req.session.user
-    
-        const userData = await UserModel.findOne(_id).lean();
-    
-        
+        const ID = userSession.id
+
+        const userData = await UserModel.findOne({_id:ID}).lean();
+            
     
         const options = {
             title:"Datos de usuario",
@@ -164,6 +163,81 @@ router.get("/userdata",async (req,res) => {
 })
 
 
+router.get("/recuperar-contrasena", async (req, res) => {
+
+    res.render("user/recoverPassword")
+})
+
+router.post("/recuperar-contrasena", async (req, res) => {
+
+    try {
+        
+        let {email_recoverPassword,new_password} = req.body
 
 
+        const newPasswordHashed =  await hashPassword(new_password)
+
+        const findUpdatePassword = await UserModel.findOneAndUpdate({email:email_recoverPassword},{password:newPasswordHashed})
+
+        if (!findUpdatePassword) {
+
+            res.status(400).send({
+                status: 400,
+                ok: false,
+                error: false,
+                statusMessage: "No se ha encontrado un suario con ese email",
+                data: null,
+            })
+            // return {
+            //     status: 400,
+            //     ok: false,
+            //     error: false,
+            //     statusMessage: "No se ha encontrado un suario con ese email",
+            //     data: null,
+            // };
+
+        } else {
+
+
+            res.status(200).send({
+                status: 200,
+                ok: true,
+                error: false,
+                statusMessage: "Contraseña actualizada con exito",
+                data: null,
+            })
+
+
+            // return {
+            //     status: 200,
+            //     ok: true,
+            //     error: false,
+            //     statusMessage: "Contraseña actualizada con exito",
+            //     data: null,
+            // };
+        }
+
+    } catch (err) {
+        console.log(err);
+
+        res.status(500).send({
+            status: 500,
+            ok: false,
+            error: err,
+            stateMsj: "Ah ocurrido un error inesperado",
+            data: null,
+        })
+
+        // return {
+        //     status: 500,
+        //     ok: false,
+        //     error: err,
+        //     stateMsj: "Ah ocurrido un error inesperado",
+        //     data: null,
+        // };
+    }
+
+
+
+})
 module.exports = router
