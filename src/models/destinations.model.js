@@ -7,7 +7,7 @@ const destinationsSchema = new mongoose.Schema({
     },
     airport: {
         type: String,
-        // required: true 
+        required: true 
     },
     nickname: {
         type: String,

@@ -46,6 +46,10 @@ const helpers = {
     const month = (date.getMonth() + 1).toString().padStart(2, '0');
     const year = date.getFullYear();
     return `${day}/${month}/${year}`;
+  },
+
+  JsonHelper : function (data) {
+    return JSON.stringify(data)
   }
 
 }
