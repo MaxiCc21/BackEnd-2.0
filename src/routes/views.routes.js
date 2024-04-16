@@ -1,16 +1,28 @@
-const { Router } = require("express")
+const { Router } = require("express");
+const DestinationsModel = require("../models/destinations.model");
 const router = Router();
 
-router.get('/', (req, res) =>{
+router.get('/', async (req, res) =>{
     
+  try {
     const userSession = req.session.user || undefined
 
+
+    const getAllDestination = await DestinationsModel.find()
+    
+
+
+    
     const options =  {
         title:"home",
-        userSession
+        userSession,
+        destinations : getAllDestination
     }
 
     res.render("home",options)
+  } catch (err) {
+    res.status(500).status("Ha ocurrido un Error inesperado, por favor ingrese a la paguina nuevamente mas tarde")
+  }
 }
 
 

@@ -34,6 +34,11 @@ const userSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now
+  },
+  status:{
+    type: String,
+    default: "user",
+    enum:['user','Admin']
   }
 });
 

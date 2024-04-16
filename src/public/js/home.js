@@ -1,17 +1,27 @@
 // Datos para las opciones del dropdown
-const options = ["Buenos Aires Aeroparque", "Buenos Aires Ezeiza", "Cordoba", "Salta"];
+// const options = ["Buenos Aires Aeroparque", "Buenos Aires Ezeiza", "Cordoba", "Salta"];
 
 // Obtener elementos del DOM
 const searchInput = document.getElementById("searchInput");
 const searchDropdown = document.getElementById("searchDropdown");
+
+
+
+// Filtrar y obtener solo los valores de la clave "province"
+const provincesArray = options.map(item => item.province);
+
+
+
 
 // Mostrar el dropdown cuando se escriba en el input
 searchInput.addEventListener("input", function() {
     const inputValue = this.value.toLowerCase();
     let matches = [];
 
+
+
     if (inputValue.length > 3) { // Solo buscar coincidencias si se han tecleado al menos dos letras
-        matches = options.filter(option => option.toLowerCase().includes(inputValue));
+        matches = provincesArray.filter(option => option.toLowerCase().includes(inputValue));
     }
 
     // Crear el contenido del dropdown con las opciones que coincidan
