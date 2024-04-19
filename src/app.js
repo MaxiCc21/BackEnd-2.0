@@ -66,6 +66,7 @@ app.use("/session", sessionRouter)
 app.use("/searchfly",searchflyRouter)
 app.use("/destination",destinationRouter)
 
+
 const port = 9090
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`)) 
