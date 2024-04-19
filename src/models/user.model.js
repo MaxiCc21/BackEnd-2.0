@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const userSchema = new mongoose.Schema({
+const userSchema = new Schema({
   name: {
     type: String,
     required: true
@@ -38,7 +39,7 @@ const userSchema = new mongoose.Schema({
   status:{
     type: String,
     default: "user",
-    enum:['user','Admin']
+    enum:['user','admin']
   }
 });
 
