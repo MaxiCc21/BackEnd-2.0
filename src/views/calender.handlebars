@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+
+    <style>
+      #calendar {
+          width: 800px; /* Establece el ancho que desees */
+          margin: 0 auto; /* Centra el calendario en la página */
+      }
+
+      .fc-daygrid-day {
+          position: relative;
+          height: 100px; /* Altura del día */
+          padding: 5px; /* Espaciado interno del día */
+      }
+
+      .fc-daygrid-day-number {
+          position: absolute;
+          top: 5px; /* Posición del número del día desde arriba */
+          left: 5px; /* Posición del número del día desde la izquierda */
+          right: 5px; /* Posición del número del día desde la derecha */
+          text-align: center;
+          font-size: 12px; /* Tamaño del número del día */
+      }
+
+      .fc-daygrid-day-bottom {
+          position: absolute;
+          bottom: -45px; /* Posición del texto personalizado desde abajo */
+          left: -90px;
+          right: 0;
+          text-align: center;
+          font-size: 16px; /* Ajusta el tamaño de la fuente del texto */
+          font-weight: bold; /* Ajusta el grosor de la fuente del texto */
+          letter-spacing: 2px; /* Ajusta el espaciado entre letras del texto */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id='calendar'></div>
+    <button id="confirmButton">Confirmar selección</button>
+  </body>
+
+</html>
+<script>
+  var dateFlight = '{{ticketData.dateFlight}}'
+  var from = '{{ticketData.from}}'
+
+</script>
+<script src="/static/js/calender.js"></script>
