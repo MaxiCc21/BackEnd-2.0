@@ -44,6 +44,10 @@ const reservationSchema = new Schema({
     // unique: true,
     // required: true,
   },
+  email: {
+    type: String,
+    require: true,
+  },
 });
 
 async function generateShortCode() {
