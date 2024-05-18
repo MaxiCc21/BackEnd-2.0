@@ -1,0 +1,72 @@
+<div class="container">
+  <div class="main-container-passenger">
+    <div class="left-passenger-section">
+      <div class="left-passenger-data-section">
+        <h2>
+          <span class="icon"><i class="fas fa-user"></i></span>
+          Persona Adulta 1
+        </h2>
+
+        <form action="/checkout/passengers" method="post" id="passengers-FORM">
+          <div class="form-container">
+            <div>
+              <div class="flex-column">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="flex-column">
+                <label for="lastname">Apellido:</label>
+                <input type="text" id="lastname" name="lastname" required />
+              </div>
+            </div>
+            <div class="flex-column">
+              <label for="dateOfBirth">Fecha de Nacimiento:</label>
+              <input type="date" id="dateOfBirth" name="dateOfBirth" required />
+            </div>
+            <div class="flex-column">
+              <label for="gender">Género:</label>
+              <select id="gender" name="gender">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="flex-column">
+              <label for="docType">Tipo de Documento:</label>
+              <select id="docType" name="docType">
+                <option value="DNI">DNI</option>
+                <option value="pasaporte">Pasaporte</option>
+              </select>
+            </div>
+            <div class="flex-column">
+              <label for="docNumber">Número de Documento:</label>
+              <input type="text" id="docNumber" name="docNumber" required />
+            </div>
+            <div class="flex-column">
+              <label for="CountryOfIssue">País de Emisión:</label>
+              <input
+                type="text"
+                id="CountryOfIssue"
+                name="CountryOfIssue"
+                required
+              />
+            </div>
+          </div>
+
+          <input type="submit" value="Siguiente" required />
+        </form>
+      </div>
+      <div class="left-passenger-contact-information">2</div>
+    </div>
+    <div class="right-ticketData-section">
+      3
+    </div>
+  </div>
+</div>
+
+<div id="spinner" class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Cargando...</span>
+</div>
+
+<script src="/static/js/passenger.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
