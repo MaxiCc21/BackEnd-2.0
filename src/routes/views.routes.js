@@ -1,34 +1,31 @@
 const { Router } = require("express");
 const DestinationsModel = require("../models/destinations.model");
 const { CleanCookie } = require("../utils/my-cookie-handle");
+const logger = require("../utils/logger");
 const router = Router();
 
-router.get('/', async (req, res) =>{
-    
+router.get("/", async (req, res) => {
   try {
+    CleanCookie(req, res, "travelOptions");
 
-    CleanCookie(req, res, 'travelOptions');
+    const userSession = req.session.user || undefined;
 
-    const userSession = req.session.user || undefined
+    const getAllDestination = await DestinationsModel.find();
 
-
-    const getAllDestination = await DestinationsModel.find()
-    
-    const options =  {
-        title:"home",
-        userSession,
-        destinations : getAllDestination
-    }
-
-    res.render("home",options)
+    const options = {
+      title: "home",
+      userSession,
+      destinations: getAllDestination,
+    };
+    logger.info("Handling GET request for /");
+    res.render("home", options);
   } catch (err) {
-    res.status(500).status("Ha ocurrido un Error inesperado, por favor ingrese a la paguina nuevamente mas tarde")
+    res
+      .status(500)
+      .status(
+        "Ha ocurrido un Error inesperado, por favor ingrese a la paguina nuevamente mas tarde"
+      );
   }
-}
+});
 
-)
-
-
-
-
-module.exports = router
+module.exports = router;
