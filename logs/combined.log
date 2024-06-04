@@ -1,2 +1,9 @@
 2024-05-23T14:09:04.801Z [32minfo[39m: GET /home
 2024-05-23T14:09:04.965Z [32minfo[39m: Handling GET request for /
+2024-06-04T21:31:37.626Z [32minfo[39m: GET /session/acceso
+2024-06-04T21:31:39.561Z [32minfo[39m: GET /session/recuperar-contrasena
+2024-06-04T21:31:50.248Z [32minfo[39m: POST /session/recuperar-contrasena
+2024-06-04T21:31:54.825Z [32minfo[39m: GET /session/acceso
+2024-06-04T21:32:10.956Z [32minfo[39m: GET /session/cambiar-contrasena?token=7d7d0a2aa6017a13b16853d530feca86f36dd9d87f7e44be3ae6c59498adab1a
+2024-06-04T21:32:22.118Z [32minfo[39m: POST /session/cambiar-contrasena
+2024-06-04T21:32:24.672Z [32minfo[39m: GET /login

@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }
 
         alert("Contraseña restablecida con éxito.");
-        window.location.href = "/login"; // Redirigir a la página de inicio de sesión
+        window.location.href = "/session/acceso";
       } catch (error) {
         console.error("Error:", error);
         alert(
