@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const MongoStore = require("connect-mongo");
+require("dotenv").config();
 
 const app = express();
 const URL_MONGO =
@@ -76,7 +77,7 @@ app.use("/searchfly", searchflyRouter);
 app.use("/destination", destinationRouter);
 app.use("/checkout", checkoutRouter);
 
-const port = 9090;
+const port = process.env.PORT;
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
