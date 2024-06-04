@@ -1,48 +1,50 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
   name: {
     type: String,
-    required: true
+    required: true,
   },
   lastname: {
     type: String,
-    required: true
+    required: true,
   },
   email: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
   },
   password: {
     type: String,
-    required: true
+    required: true,
   },
   dateOfBirth: {
     type: Date,
-    required: true
+    required: true,
   },
   docType: {
     type: String,
-    enum: ['DNI',"D.N.I", 'Pasaporte'], 
-    required: true
+    enum: ["DNI", "D.N.I", "Pasaporte"],
+    required: true,
   },
   docNumber: {
     type: String,
-    required: true
+    required: true,
   },
   createdAt: {
     type: Date,
-    default: Date.now
+    default: Date.now,
   },
-  status:{
+  status: {
     type: String,
     default: "user",
-    enum:['user','admin']
-  }
+    enum: ["user", "admin"],
+  },
+  resetPasswordToken: { type: String },
+  resetPasswordExpires: { type: Date },
 });
 
-const UserModel = mongoose.model('user', userSchema);
+const UserModel = mongoose.model("user", userSchema);
 
 module.exports = UserModel;
