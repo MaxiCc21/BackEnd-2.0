@@ -4,8 +4,6 @@ const MongoStore = require("connect-mongo");
 require("dotenv").config();
 
 const app = express();
-const URL_MONGO =
-  "mongodb+srv://maxi21498:Morethanwords21@cluster0.2z3gkua.mongodb.net/AirlFly";
 
 const viewsRouter = require("./routes/views.routes");
 const sessionRouter = require("./routes/session.routes");
@@ -31,7 +29,7 @@ app.use(cookieParser("MyCookiePaswordCoder"));
 app.use(
   session({
     store: MongoStore.create({
-      mongoUrl: URL_MONGO,
+      mongoUrl: process.env.URL_MONGO,
       ttl: 10 * 60,
     }),
     secret: "secret-key-session-Cod3r",
@@ -82,7 +80,7 @@ const port = process.env.PORT;
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 try {
-  mongoose.connect(URL_MONGO);
+  mongoose.connect(process.env.URL_MONGO);
 
   console.log("Coneccion exitosa");
 } catch (error) {
