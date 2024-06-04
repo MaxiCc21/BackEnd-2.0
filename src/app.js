@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // configuracion de las cookies
-app.use(cookieParser("MyCookiePaswordCoder"));
+app.use(cookieParser(process.env.SECRET_KEY_COOKIE));
 
 app.use(
   session({
@@ -32,7 +32,7 @@ app.use(
       mongoUrl: process.env.URL_MONGO,
       ttl: 10 * 60,
     }),
-    secret: "secret-key-session-Cod3r",
+    secret: process.env.SECRET_KEY_SESSION,
     resave: false,
     saveUninitialized: false,
   })
