@@ -1,0 +1,36 @@
+2024-06-04T21:37:01.809Z [31merror[39m: unhandledRejection: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb-connection-string-url\lib\index.js:86:19)
+    at parseOptions (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\connection_string.js:186:17)
+    at new MongoClient (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\mongo_client.js:51:63)
+    at MongoClient.connect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\mongo_client.js:295:24)
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:114:46)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:31:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+2024-06-04T21:37:15.843Z [31merror[39m: unhandledRejection: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb-connection-string-url\lib\index.js:86:19)
+    at parseOptions (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\connection_string.js:186:17)
+    at new MongoClient (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\mongo_client.js:51:63)
+    at MongoClient.connect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\mongo_client.js:295:24)
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:114:46)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:31:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+2024-06-04T21:37:21.262Z [31merror[39m: unhandledRejection: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb-connection-string-url\lib\index.js:86:19)
+    at parseOptions (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\connection_string.js:186:17)
+    at new MongoClient (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\mongo_client.js:51:63)
+    at MongoClient.connect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongodb\lib\mongo_client.js:295:24)
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:114:46)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:31:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)

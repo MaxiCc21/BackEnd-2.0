@@ -4,8 +4,6 @@ const MongoStore = require("connect-mongo");
 require("dotenv").config();
 
 const app = express();
-const URL_MONGO =
-  "mongodb+srv://maxi21498:Morethanwords21@cluster0.2z3gkua.mongodb.net/AirlFly";
 
 const viewsRouter = require("./routes/views.routes");
 const sessionRouter = require("./routes/session.routes");
@@ -26,15 +24,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // configuracion de las cookies
-app.use(cookieParser("MyCookiePaswordCoder"));
+app.use(cookieParser(process.env.SECRET_KEY_COOKIE));
 
 app.use(
   session({
     store: MongoStore.create({
-      mongoUrl: URL_MONGO,
+      mongoUrl: process.env.URL_MONGO,
       ttl: 10 * 60,
     }),
-    secret: "secret-key-session-Cod3r",
+    secret: process.env.SECRET_KEY_SESSION,
     resave: false,
     saveUninitialized: false,
   })
@@ -79,10 +77,12 @@ app.use("/checkout", checkoutRouter);
 
 const port = process.env.PORT;
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () =>
+  console.log(`La aplicacion esta corriendo en el puerto: ${port}!`)
+);
 
 try {
-  mongoose.connect(URL_MONGO);
+  mongoose.connect(process.env.URL_MONGO);
 
   console.log("Coneccion exitosa");
 } catch (error) {
