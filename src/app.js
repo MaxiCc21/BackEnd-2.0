@@ -77,7 +77,9 @@ app.use("/checkout", checkoutRouter);
 
 const port = process.env.PORT;
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(port, () =>
+  console.log(`La aplicacion esta corriendo en el puerto: ${port}!`)
+);
 
 try {
   mongoose.connect(process.env.URL_MONGO);
