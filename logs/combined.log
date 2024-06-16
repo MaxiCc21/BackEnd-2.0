@@ -43,3 +43,13 @@ MongoParseError: Invalid scheme, expected connection string to start with "mongo
     at Module._compile (node:internal/modules/cjs/loader:1376:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
     at Module.load (node:internal/modules/cjs/loader:1207:32)
+2024-06-16T21:44:19.387Z [32minfo[39m: GET /home
+2024-06-16T21:44:19.562Z [32minfo[39m: Handling GET request for /
+2024-06-16T21:44:20.032Z [32minfo[39m: GET /favicon.ico
+2024-06-16T21:44:21.912Z [32minfo[39m: GET //api-docs
+2024-06-16T22:02:00.098Z [32minfo[39m: GET /session/
+2024-06-16T22:02:02.362Z [32minfo[39m: GET /session
+2024-06-16T22:02:09.261Z [32minfo[39m: GET /session/acceso
+2024-06-16T22:02:25.604Z [32minfo[39m: GET /home
+2024-06-16T22:02:25.771Z [32minfo[39m: Handling GET request for /
+2024-06-16T22:02:34.685Z [32minfo[39m: GET //api-docs/

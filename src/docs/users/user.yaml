@@ -1,0 +1,114 @@
+openapi: 3.0.0
+info:
+  title: User API
+  version: 1.0.0
+paths:
+  /session/acceso:
+    get:
+      summary: Render user login page
+      responses:
+        "200":
+          description: User login page rendered
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+                - email
+                - password
+      responses:
+        "200":
+          description: User successfully logged in
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  ok:
+                    type: boolean
+                  statusMessage:
+                    type: string
+        "400":
+          description: Incorrect user data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  ok:
+                    type: boolean
+                  statusMessage:
+                    type: string
+        "500":
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  ok:
+                    type: boolean
+                  statusMessage:
+                    type: string
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - name
+        - lastname
+        - email
+        - password
+        - dateOfBirth
+        - docType
+        - docNumber
+      properties:
+        name:
+          type: string
+        lastname:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        dateOfBirth:
+          type: string
+          format: date
+        docType:
+          type: string
+          enum:
+            - DNI
+            - D.N.I
+            - Pasaporte
+        docNumber:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        status:
+          type: string
+          enum:
+            - user
+            - admin
+        resetPasswordToken:
+          type: string
+          nullable: true
+        resetPasswordExpires:
+          type: string
+          format: date-time
+          nullable: true

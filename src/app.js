@@ -4,7 +4,7 @@ const MongoStore = require("connect-mongo");
 require("dotenv").config();
 
 const app = express();
-
+const swaggerSetup = require("./config/swagger");
 const viewsRouter = require("./routes/views.routes");
 const sessionRouter = require("./routes/session.routes");
 const searchflyRouter = require("./routes/searchfly.routes");
@@ -22,6 +22,11 @@ app.use(express.json());
 app.use("/static", express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+//todo -----------Swagger------------
+swaggerSetup(app); // Esto agrega la documentación de Swagger
+
+//todo -----------Swagger------------
 
 // configuracion de las cookies
 app.use(cookieParser(process.env.SECRET_KEY_COOKIE));

@@ -1,0 +1,4 @@
+paths:
+  /session/acceso/:
+    get:
+      summary: Obtiene todos los usuario disponibles en la aplication
