@@ -1,0 +1,55 @@
+openapi: 3.0.0
+info:
+  title: User API
+  version: 1.0.0
+  description: Documentación de la API para el acceso y registro de usuarios
+paths:
+  /destination/:
+    get:
+      summary: Muestra una lista de todos los destinos de vuelo
+      tags:
+        - Destination
+      responses:
+        "200":
+          description: Muestra una lista de todos los destinos de vuelo
+    post:
+      summary: Puedes crear un nuevo destino
+      tags:
+        - Destination
+      requestBody:
+        description: Crear un nuevo destino
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/destination"
+        required: true
+      responses:
+        "200":
+          description: Todo bien
+
+        "500":
+          description: Algo salio mal al agreagar un nuevo destino
+  /destination/delete/{nickname}/:
+    delete:
+      tags:
+        - Destination
+      summary: Eliminar destino
+      description: Necesita un nickname para poder eliminar un destino
+      parameters:
+        - name: nickname
+          in: header
+          description: "La abreviacino del nombre de la provincia a eliminar"
+          required: false
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Destino eliminar con exito
+        "404":
+          description: "Destino no encontrado"
+        "500":
+          description: Ocurrio un error inesperado
+      security:
+        - petstore_auth:
+            - write:pets
+            - read:pets

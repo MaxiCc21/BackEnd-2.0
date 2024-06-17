@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: User API
+  version: 1.0.0
+  description: Documentación de la API para el acceso y registro de usuarios
+paths:
+  /home/:
+    get:
+      summary: Renderizar página de inicio de sesión de usuario
+      tags:
+        - Home
+      responses:
+        "200":
+          description: Página de inicio de sesión de usuario renderizada

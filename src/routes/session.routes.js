@@ -127,6 +127,7 @@ router.get("/logout", (req, res) => {
 });
 
 router.get("/userdata", async (req, res) => {
+  // Muestra los datos del usuario, que inicio sesion
   try {
     const userSession = req.session.user || undefined;
     const ID = userSession.id;
@@ -145,11 +146,13 @@ router.get("/userdata", async (req, res) => {
   }
 });
 
-router.get("/recuperar-contrasena", async (req, res) => {
+router.get("/recuperarContrasena", async (req, res) => {
+  // Carga un render para recuperar contraseña
   res.render("user/recoverPassword");
 });
 
-router.post("/recuperar-contrasena", async (req, res) => {
+router.post("/recuperarContrasena", async (req, res) => {
+  // Envia un mail de verificacion, para realizar el cambio de contraseña
   try {
     let { email_recoverPassword } = req.body;
 
@@ -222,6 +225,7 @@ router.get("/cambiar-contrasena", async (req, res) => {
 });
 
 router.post("/cambiar-contrasena", async (req, res) => {
+  // Cambia la contraseña vieja por la nueva ingresada por el usuario
   try {
     const { token, newPassword } = req.body;
 

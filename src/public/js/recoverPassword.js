@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const formDataRecover = new FormData($recoverPasswordFORM);
 
-    fetch("/session/recuperar-contrasena", {
+    fetch("/session/recuperarContrasena", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
