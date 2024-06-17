@@ -73,3 +73,5 @@ MongoParseError: Invalid scheme, expected connection string to start with "mongo
 2024-06-17T20:04:41.831Z [32minfo[39m: Handling GET request for /
 2024-06-17T20:17:16.131Z [32minfo[39m: GET /destination/GET
 2024-06-17T20:21:40.819Z [32minfo[39m: GET /destination/GET
+2024-06-17T21:32:56.860Z [32minfo[39m: GET /home
+2024-06-17T21:32:57.045Z [32minfo[39m: Handling GET request for /

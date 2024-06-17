@@ -6,9 +6,6 @@
         <a href="/session/logout">Cerrar sesion</a>
     </section>
     {{/if}}
-
-
-
     <section class="home-background main-show-background">
         
     </section>
@@ -23,11 +20,11 @@
                 <div class="searchFlyForm-top-section">
                     <div class="one-way-div flightType-div">
                         <label for="flightType">Ida</label>
-                        <input type="checkbox" name="flightType" id="flightType" value="ONE_WAY" >
+                        <input type="checkbox" name="flightType" id="oneWay" value="ONE_WAY" checked>
                     </div>
-                    <div class="round-trip-div flightType-div">
+                    <div class="round-trip-div flightType-div ">
                         <label for="flightType">Ida y vuelta</label>
-                        <input type="checkbox" name="flightType" id="flightType" value="ROUND_TRIP" >
+                        <input type="checkbox" name="flightType" id="roundTrip" value="ROUND_TRIP" >
                     </div>                
                 </div>
                 <div class="searchFlyForm-middle-section">
@@ -62,6 +59,12 @@
                         <label for="dateFlight">Partida</label>
                         <input type="date" id="dateFlight" name="dateFlight" onkeydown="return false;">
                     </div>
+
+                    <div class="input-icon div-flex-column" id="returnDateFlightContainer">
+                        <label for="returnDateFlight" id="label-returnDateFlight">Vuelta</label>
+                        <input type="date" id="returnDateFlight" name="returnDateFlight" onkeydown="return false;">
+                    </div>
+                                
                 </div>
                 
                 <div class="searchFlyForm-bottom-section">
