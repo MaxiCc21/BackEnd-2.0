@@ -1,0 +1,75 @@
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - name
+        - lastname
+        - email
+        - password
+        - dateOfBirth
+        - docType
+        - docNumber
+      properties:
+        name:
+          type: string
+          description: Nombre del usuario
+        lastname:
+          type: string
+          description: Apellido del usuario
+        email:
+          type: string
+          description: Correo electrónico del usuario
+        password:
+          type: string
+          description: Contraseña del usuario
+        dateOfBirth:
+          type: string
+          format: date
+          description: Fecha de nacimiento del usuario
+        docType:
+          type: string
+          enum:
+            - DNI
+            - D.N.I
+            - Pasaporte
+          description: Tipo de documento del usuario
+        docNumber:
+          type: string
+          description: Número de documento del usuario
+        createdAt:
+          type: string
+          format: date-time
+          description: Fecha de creación del usuario
+        status:
+          type: string
+          enum:
+            - user
+            - admin
+          description: Estado del usuario
+        resetPasswordToken:
+          type: string
+          nullable: true
+          description: Token para restablecimiento de contraseña
+        resetPasswordExpires:
+          type: string
+          format: date-time
+          nullable: true
+          description: Fecha de expiración del token para restablecimiento de contraseña
+    destination:
+      required:
+        - name
+      type: object
+      properties:
+        province:
+          type: string
+          example: Cordoba
+        airport:
+          type: string
+          example: Aeropuerto Internacional de Córdoba 'Ingeniero Aeronáutico Ambrosio Taravella'
+        nickname:
+          type: string
+          example: COR
+        country:
+          type: string
+          example: Argentina

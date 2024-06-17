@@ -53,3 +53,23 @@ MongoParseError: Invalid scheme, expected connection string to start with "mongo
 2024-06-16T22:02:25.604Z [32minfo[39m: GET /home
 2024-06-16T22:02:25.771Z [32minfo[39m: Handling GET request for /
 2024-06-16T22:02:34.685Z [32minfo[39m: GET //api-docs/
+2024-06-16T22:11:03.975Z [32minfo[39m: GET /session/acceso
+2024-06-16T22:11:05.909Z [32minfo[39m: GET /session/registro
+2024-06-16T22:11:08.821Z [32minfo[39m: GET /session/registro
+2024-06-16T22:11:11.998Z [32minfo[39m: GET /session/recuperar-contrasena
+2024-06-16T23:33:31.445Z [32minfo[39m: GET /home
+2024-06-16T23:33:31.615Z [32minfo[39m: Handling GET request for /
+2024-06-17T19:52:39.661Z [32minfo[39m: GET /home
+2024-06-17T19:52:39.842Z [32minfo[39m: Handling GET request for /
+2024-06-17T19:52:40.162Z [32minfo[39m: GET /favicon.ico
+2024-06-17T19:52:41.444Z [32minfo[39m: GET /session/acceso
+2024-06-17T19:52:42.813Z [32minfo[39m: GET /session/recuperar-contrasena
+2024-06-17T20:04:37.631Z [32minfo[39m: GET /home
+2024-06-17T20:04:37.794Z [32minfo[39m: Handling GET request for /
+2024-06-17T20:04:39.222Z [32minfo[39m: GET /session/acceso
+2024-06-17T20:04:41.309Z [32minfo[39m: GET /home
+2024-06-17T20:04:41.465Z [32minfo[39m: Handling GET request for /
+2024-06-17T20:04:41.675Z [32minfo[39m: GET /home
+2024-06-17T20:04:41.831Z [32minfo[39m: Handling GET request for /
+2024-06-17T20:17:16.131Z [32minfo[39m: GET /destination/GET
+2024-06-17T20:21:40.819Z [32minfo[39m: GET /destination/GET
