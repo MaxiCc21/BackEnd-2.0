@@ -112,7 +112,7 @@
 
 #reservationForm button {
     cursor: pointer;
-    background-color: #007bff; /* Color de fondo del botón */
+    background-color: $main-btn-color; /* Color de fondo del botón */
     color: white; /* Color del texto del botón */
     border: none; /* Sin borde para el botón */
     transition: background-color 0.3s; /* Transición suave para el cambio de color */
@@ -121,7 +121,7 @@
 }
 
 #reservationForm button:hover {
-    background-color: #0056b3; /* Color de fondo del botón al hacer hover */
+    background-color: $main-btn-hoover-color; /* Color de fondo del botón al hacer hover */
 }
 
 #reservationForm input:first-child {

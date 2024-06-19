@@ -575,17 +575,16 @@ input[type=date]:focus {
 }
 
 .searchBar-container {
-  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+  background-color: rgba(255, 255, 255, 0.9);
   height: 90%;
   width: 80%;
   margin-top: -149px;
   padding: 25px;
   position: relative;
-  border-radius: 10px; /* Opcional: esquinas redondeadas */
-  /* Simulación de borde translúcido */
-  padding: 30px; /* Espacio para el borde */
-  background-clip: padding-box; /* Fondo no se extiende al área de borde */
-  box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.5); /* Borde semitransparente */
+  border-radius: 10px;
+  padding: 30px;
+  background-clip: padding-box;
+  box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.5);
 }
 
 .session-section {
@@ -668,7 +667,7 @@ input[type=date]:focus {
 
 #reservationForm button {
   cursor: pointer;
-  background-color: #007bff; /* Color de fondo del botón */
+  background-color: #09987e; /* Color de fondo del botón */
   color: white; /* Color del texto del botón */
   border: none; /* Sin borde para el botón */
   transition: background-color 0.3s; /* Transición suave para el cambio de color */
@@ -676,7 +675,7 @@ input[type=date]:focus {
 }
 
 #reservationForm button:hover {
-  background-color: #0056b3; /* Color de fondo del botón al hacer hover */
+  background-color: #0f6054; /* Color de fondo del botón al hacer hover */
 }
 
 #reservationForm input:first-child {
