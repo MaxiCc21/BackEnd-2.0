@@ -34,3 +34,35 @@ TypeError: swaggerSetup is not a function
     at Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
+2024-06-19T21:31:43.423Z [31merror[39m: uncaughtException: Unexpected identifier 'data'
+C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:106
+        data: null,
+        ^^^^
+
+SyntaxError: Unexpected identifier 'data'
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:12:24)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+2024-06-19T21:37:32.158Z [31merror[39m: uncaughtException: Unexpected token ','
+C:\NewProgramacion\CoderHouse\BackEnd\src\dao\mongoManager\reservationManager.js:58
+            stateMsj: "Pasaje reservado con éxito\n, Lo esperamosa bordo",,
+                                                                          ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\service\index.js:1:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)

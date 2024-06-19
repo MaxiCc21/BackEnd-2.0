@@ -575,10 +575,17 @@ input[type=date]:focus {
 }
 
 .searchBar-container {
-  background-color: brown;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
   height: 90%;
   width: 80%;
   margin-top: -149px;
+  padding: 25px;
+  position: relative;
+  border-radius: 10px; /* Opcional: esquinas redondeadas */
+  /* Simulación de borde translúcido */
+  padding: 30px; /* Espacio para el borde */
+  background-clip: padding-box; /* Fondo no se extiende al área de borde */
+  box-shadow: 0 0 0 30px rgba(255, 255, 255, 0.5); /* Borde semitransparente */
 }
 
 .session-section {
@@ -588,6 +595,96 @@ input[type=date]:focus {
 
 .session-section a {
   padding-left: 60px;
+}
+
+.tabs-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tab {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  font-size: 18px; /* Ajusta el tamaño del texto */
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el icono y el texto */
+  color: rgb(122, 122, 122);
+}
+
+.tab i {
+  font-size: 24px; /* Ajusta el tamaño del icono */
+}
+
+.tab::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px; /* Ajusta la altura de la barra */
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab:hover::after {
+  background-color: #0f6054; /* Color de la barra azul */
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab.active {
+  color: #0f6054; /* Color azul para el texto e icono del botón activo */
+}
+
+.tab.active::after {
+  background-color: #0f6054; /* Barra azul para el botón activo */
+}
+
+#reservationForm {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  flex-direction: row;
+}
+
+#reservationForm input,
+#reservationForm button {
+  padding: 10px; /* Añade relleno para un tamaño consistente */
+  box-sizing: border-box; /* Incluye el relleno en el tamaño total del elemento */
+  font-size: 16px; /* Tamaño del texto consistente */
+  border: 1px solid #ccc; /* Borde para los inputs */
+  margin-inline: 10px;
+}
+
+#reservationForm button {
+  cursor: pointer;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde para el botón */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
+  width: 150px;
+}
+
+#reservationForm button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al hacer hover */
+}
+
+#reservationForm input:first-child {
+  border-right: none; /* Quita el borde derecho del primer input */
+}
+
+#reservationForm input:last-child {
+  border-left: none; /* Quita el borde izquierdo del último input */
 }
 
 .usersession-form {
@@ -807,6 +904,7 @@ input[type=email]:focus {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
+  width: 100%;
 }
 
 .form-container div {

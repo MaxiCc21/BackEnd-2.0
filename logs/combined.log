@@ -75,3 +75,225 @@ MongoParseError: Invalid scheme, expected connection string to start with "mongo
 2024-06-17T20:21:40.819Z [32minfo[39m: GET /destination/GET
 2024-06-17T21:32:56.860Z [32minfo[39m: GET /home
 2024-06-17T21:32:57.045Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:00:30.725Z [32minfo[39m: GET /home
+2024-06-18T21:00:30.896Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:00:31.274Z [32minfo[39m: GET /favicon.ico
+2024-06-18T21:02:06.404Z [32minfo[39m: GET /home
+2024-06-18T21:02:06.561Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:05:50.837Z [32minfo[39m: GET /home
+2024-06-18T21:05:51.443Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:06:04.166Z [32minfo[39m: GET /home
+2024-06-18T21:06:04.332Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:06:48.458Z [32minfo[39m: GET /home
+2024-06-18T21:06:48.622Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:07:03.682Z [32minfo[39m: GET /home
+2024-06-18T21:07:03.849Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:07:44.723Z [32minfo[39m: GET /home
+2024-06-18T21:07:44.887Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:08:16.247Z [32minfo[39m: GET /home
+2024-06-18T21:08:16.414Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:08:54.083Z [32minfo[39m: GET /home
+2024-06-18T21:08:54.245Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:09:07.069Z [32minfo[39m: GET /home
+2024-06-18T21:09:07.232Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:09:33.230Z [32minfo[39m: GET /home
+2024-06-18T21:09:33.391Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:09:36.624Z [32minfo[39m: GET /home
+2024-06-18T21:09:36.788Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:10:17.532Z [32minfo[39m: GET /home
+2024-06-18T21:10:17.693Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:10:58.259Z [32minfo[39m: GET /home
+2024-06-18T21:10:58.433Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:13:43.440Z [32minfo[39m: GET /home
+2024-06-18T21:13:43.604Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:15:06.266Z [32minfo[39m: GET /home
+2024-06-18T21:15:06.430Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:18:19.354Z [32minfo[39m: GET /home
+2024-06-18T21:18:21.394Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:18:58.067Z [32minfo[39m: GET /home
+2024-06-18T21:18:58.248Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:19:18.943Z [32minfo[39m: GET /home
+2024-06-18T21:19:19.109Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:20:07.387Z [32minfo[39m: GET /home
+2024-06-18T21:20:07.550Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:20:18.730Z [32minfo[39m: GET /home
+2024-06-18T21:20:18.892Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:20:27.106Z [32minfo[39m: GET /home
+2024-06-18T21:20:27.270Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:21:33.447Z [32minfo[39m: GET /home
+2024-06-18T21:21:33.608Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:21:43.206Z [32minfo[39m: GET /home
+2024-06-18T21:21:43.369Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:22:25.378Z [32minfo[39m: GET /home
+2024-06-18T21:22:25.540Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:22:40.297Z [32minfo[39m: GET /home
+2024-06-18T21:22:40.459Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:22:56.563Z [32minfo[39m: GET /home
+2024-06-18T21:22:56.725Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:23:14.774Z [32minfo[39m: GET /home
+2024-06-18T21:23:14.938Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:23:33.917Z [32minfo[39m: GET /home
+2024-06-18T21:23:34.080Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:26:13.972Z [32minfo[39m: GET /home
+2024-06-18T21:26:14.144Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:26:53.438Z [32minfo[39m: GET /home
+2024-06-18T21:26:53.608Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:27:45.563Z [32minfo[39m: GET /home
+2024-06-18T21:27:45.730Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:29:09.174Z [32minfo[39m: GET /home
+2024-06-18T21:29:09.340Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:29:39.611Z [32minfo[39m: GET /home
+2024-06-18T21:29:39.774Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:30:26.865Z [32minfo[39m: GET /home
+2024-06-18T21:30:27.033Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:30:48.200Z [32minfo[39m: GET /home
+2024-06-18T21:30:48.379Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:31:43.821Z [32minfo[39m: GET /home
+2024-06-18T21:31:43.986Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:32:38.700Z [32minfo[39m: GET /home
+2024-06-18T21:32:38.862Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:34:28.737Z [32minfo[39m: GET /home
+2024-06-18T21:34:28.905Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:35:24.988Z [32minfo[39m: GET /home
+2024-06-18T21:35:25.164Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:36:58.740Z [32minfo[39m: GET /home
+2024-06-18T21:36:58.906Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:39:05.838Z [32minfo[39m: GET /home
+2024-06-18T21:39:06.002Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:39:25.128Z [32minfo[39m: GET /home
+2024-06-18T21:39:25.297Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:39:46.999Z [32minfo[39m: GET /home
+2024-06-18T21:39:47.165Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:40:42.932Z [32minfo[39m: GET /home
+2024-06-18T21:40:43.095Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:41:25.499Z [32minfo[39m: GET /home
+2024-06-18T21:41:25.661Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:41:49.566Z [32minfo[39m: GET /home
+2024-06-18T21:41:49.732Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:41:57.584Z [32minfo[39m: GET /home
+2024-06-18T21:41:57.751Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:44:51.438Z [32minfo[39m: GET /home
+2024-06-18T21:44:51.601Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:45:52.299Z [32minfo[39m: GET /home
+2024-06-18T21:45:52.460Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:46:20.258Z [32minfo[39m: GET /home
+2024-06-18T21:46:20.421Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:46:35.934Z [32minfo[39m: GET /home
+2024-06-18T21:46:36.100Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:46:49.757Z [32minfo[39m: GET /home
+2024-06-18T21:46:49.920Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:47:23.340Z [32minfo[39m: GET /home
+2024-06-18T21:47:23.505Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:47:35.208Z [32minfo[39m: GET /home
+2024-06-18T21:47:35.388Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:47:41.410Z [32minfo[39m: GET /home
+2024-06-18T21:47:41.570Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:47:46.912Z [32minfo[39m: GET /home
+2024-06-18T21:47:47.083Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:47:53.102Z [32minfo[39m: GET /home
+2024-06-18T21:47:53.266Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:48:07.377Z [32minfo[39m: GET /session/acceso
+2024-06-18T21:48:08.512Z [32minfo[39m: GET /home
+2024-06-18T21:48:08.706Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:49:02.016Z [32minfo[39m: GET /home
+2024-06-18T21:49:02.181Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:49:15.622Z [32minfo[39m: GET /home
+2024-06-18T21:49:15.793Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:50:03.076Z [32minfo[39m: GET /home
+2024-06-18T21:50:03.244Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:51:18.783Z [32minfo[39m: GET /home
+2024-06-18T21:51:18.947Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:51:33.124Z [32minfo[39m: GET /home
+2024-06-18T21:51:33.290Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:51:40.873Z [32minfo[39m: GET /home
+2024-06-18T21:51:41.041Z [32minfo[39m: Handling GET request for /
+2024-06-18T21:52:09.770Z [32minfo[39m: GET /home
+2024-06-18T21:52:09.934Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:05:39.918Z [32minfo[39m: GET /home
+2024-06-19T20:05:40.865Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:05:41.245Z [32minfo[39m: GET /favicon.ico
+2024-06-19T20:36:14.019Z [32minfo[39m: GET /checkreservation?lastname=Condori&reservationCode=ARR24
+2024-06-19T20:36:51.640Z [32minfo[39m: GET /home
+2024-06-19T20:36:51.823Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:37:00.836Z [32minfo[39m: GET /home?lastname=Condori&reservationCode=ARR24
+2024-06-19T20:37:00.991Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:37:13.626Z [32minfo[39m: GET /home?lastname=Condori&reservationCode=ARR24
+2024-06-19T20:37:13.782Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:38:02.325Z [32minfo[39m: GET /home?lastname=Condori&reservationCode=ARR24
+2024-06-19T20:38:03.200Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:38:08.400Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:38:52.746Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:39:34.346Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:45:09.794Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:45:26.930Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:45:31.840Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:45:32.003Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:162:21)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:102:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-19T20:45:43.264Z [32minfo[39m: GET /home?lastname=Condori&reservationCode=ARR24
+2024-06-19T20:45:43.817Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:45:44.451Z [32minfo[39m: GET /home
+2024-06-19T20:45:44.609Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:45:59.630Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:45:59.800Z [32minfo[39m: GET /checkout/reservation
+2024-06-19T20:47:46.978Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:47:47.162Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:162:21)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:101:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-19T20:48:13.995Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:50:42.801Z [32minfo[39m: GET /home
+2024-06-19T20:50:42.961Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:52:31.565Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=sadfsdaf&ticketClass=economy&not=1&dateFlight=2024-06-07
+2024-06-19T20:55:32.268Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:55:32.456Z [32minfo[39m: GET /checkout/reservation
+2024-06-19T20:55:45.635Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:55:46.200Z [32minfo[39m: GET /checkout/reservation
+2024-06-19T20:56:12.712Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:56:12.884Z [32minfo[39m: GET /checkout/reservation
+2024-06-19T20:56:15.058Z [32minfo[39m: GET /home
+2024-06-19T20:56:15.221Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:56:43.428Z [32minfo[39m: GET /home
+2024-06-19T20:56:44.771Z [32minfo[39m: Handling GET request for /
+2024-06-19T20:56:56.736Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T20:56:56.904Z [32minfo[39m: GET /checkout/reservation?lastname=Condori&code=ARR24
+2024-06-19T20:58:38.255Z [32minfo[39m: GET /checkout/reservation?lastname=Condori&code=ARR24
+2024-06-19T20:59:38.168Z [32minfo[39m: GET /checkout/reservation?lastname=Condori
+2024-06-19T20:59:42.665Z [32minfo[39m: GET /checkout/reservation?lastname=Condori
+2024-06-19T20:59:58.934Z [32minfo[39m: GET /checkout/reservation?lastname=Condori&code=ARR24
+2024-06-19T21:00:08.277Z [32minfo[39m: GET /home
+2024-06-19T21:00:08.452Z [32minfo[39m: Handling GET request for /
+2024-06-19T21:00:10.696Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T21:00:10.860Z [32minfo[39m: GET /checkout/reservation?lastname=Condori&code=ARR24
+2024-06-19T21:00:13.408Z [32minfo[39m: GET /checkout/reservation?lastname=Condori
+2024-06-19T21:00:24.144Z [32minfo[39m: GET /home
+2024-06-19T21:00:24.738Z [32minfo[39m: Handling GET request for /
+2024-06-19T21:00:48.971Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T21:00:49.145Z [32minfo[39m: GET /checkout/reservation?lastname=Condori&code=ARR24
+2024-06-19T21:02:11.730Z [32minfo[39m: GET /checkout/reservation?lastname=Condori&code=ARR24
+2024-06-19T21:02:16.704Z [32minfo[39m: GET /checkout/reservation?lastname=Condori
+2024-06-19T21:02:16.708Z [32minfo[39m: GET /home
+2024-06-19T21:02:16.872Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.location (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:915:15)
+    at ServerResponse.redirect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:953:18)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:85:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-19T21:02:32.930Z [32minfo[39m: GET /home
+2024-06-19T21:02:34.878Z [32minfo[39m: Handling GET request for /
+2024-06-19T21:02:56.073Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T21:03:06.592Z [32minfo[39m: POST /checkout/reservation
+2024-06-19T21:03:06.763Z [32minfo[39m: GET /checkout/reservation?lastname=Condori&code=ARR24
