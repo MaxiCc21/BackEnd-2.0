@@ -34,3 +34,53 @@ MongoParseError: Invalid scheme, expected connection string to start with "mongo
     at Module._compile (node:internal/modules/cjs/loader:1376:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
     at Module.load (node:internal/modules/cjs/loader:1207:32)
+2024-06-19T20:45:32.003Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:162:21)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:102:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-19T20:47:47.162Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:162:21)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:101:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-06-19T20:59:42.673Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:174:12)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:77:7
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:346:12)
+2024-06-19T21:00:13.412Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:174:12)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:79:7
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:346:12)
+2024-06-19T21:02:16.872Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.location (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:915:15)
+    at ServerResponse.redirect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:953:18)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:85:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
