@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  title: User API
+  version: 1.0.0
+  description: Documentación de la API para el acceso y registro de usuarios
+paths:
+  /checkout/reservation/:
+    get:
+      summary: Renderizar página donde se muestran los datos de la reservacion
+      tags:
+        - Reservation
+      responses:
+        "200":
+          description: Página donde se muestran los datos de la reservación
+          content:
+            application/json:
+              example:
+                status: 200
+                ok: true
+                error: false
+                stateMsj: "Pasaje reservado con éxito\n, Lo esperamos a bordo"
+                data: null
+        "400":
+          description: Reservacion no encontrada
+          content:
+            application/json:
+              example:
+                status: 400
+                ok: false
+                error: true
+                stateMsj: "Ocurrio un error al intentar crear una reservacion, por favor inntente nuevamente mas tarde"
+                data: null
+        "500":
+          description: Ocurrio un error inesperado
+          content:
+            application/json:
+              example:
+                status: 500
+                ok: false
+                error: true
+                stateMsj: "Ocurrio un error inesperado, estamos trabajando para solucionarlo"
+                data: null
+    post:
+      summary: Verifica la existencia de una reservacion
+      tags:
+        - Reservation
+      responses:
+        "200":
+          description: Página donde se muestran los datos de la reservacion
+          content:
+            application/json:
+              example:
+                name: "maxi"
+                lastname: "Condori"
+                dateOfBirth: { "$date": "1998-04-21T00:00:00.000Z" }
+                gender: "masculino"
+                docType: "DNI"
+                docNumber: "41104036"
+                CountryOfIssue: "Argentina"
+                shortCode: "ARR24"
+        "400":
+          description: Ocurrio un error al intentar crear una reservacion, por favor inntente nuevamente mas tarde
+        "500":
+          description: "Ocurrio un erro inesperado"
