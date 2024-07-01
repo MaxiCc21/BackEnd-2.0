@@ -326,3 +326,5 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 2024-07-01T19:23:10.938Z [32minfo[39m: GET /home
 2024-07-01T19:23:11.129Z [32minfo[39m: Handling GET request for /
 2024-07-01T19:23:11.523Z [32minfo[39m: GET /favicon.ico
+2024-07-01T20:44:44.152Z [32minfo[39m: GET /home
+2024-07-01T20:44:44.327Z [32minfo[39m: Handling GET request for /

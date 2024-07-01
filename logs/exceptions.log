@@ -66,3 +66,35 @@ SyntaxError: Unexpected token ','
     at require (node:internal/modules/helpers:176:18)
     at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\service\index.js:1:28)
     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+2024-07-01T21:23:04.087Z [31merror[39m: uncaughtException: Unexpected token 'const'
+C:\NewProgramacion\CoderHouse\BackEnd\src\dao\mongoManager\destinationManager.js:41
+        const     const createNewDestination = await DestinationsModel.create(newDestination);
+                  ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\service\index.js:1:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+2024-07-01T21:51:38.955Z [31merror[39m: uncaughtException: Unexpected token ','
+C:\NewProgramacion\CoderHouse\BackEnd\src\dao\mongoManager\destinationManager.js:81
+            ,
+            ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\service\index.js:1:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)

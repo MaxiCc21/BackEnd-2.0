@@ -1,11 +1,13 @@
 const { Router } = require("express");
 const DestinationsModel = require("../models/destinations.model");
+const { destinationService } = require("../service");
 
 const router = Router();
 
 router.get("/", async (req, res) => {
   try {
-    const destinationData = await DestinationsModel.find();
+    //* Trae todos los datos de Destinos de vuelo
+    const destinationData = await destinationService.getAllDestination();
 
     res.status(200).send(destinationData);
   } catch (err) {
@@ -15,11 +17,14 @@ router.get("/", async (req, res) => {
 
 router.post("/", async (req, res) => {
   try {
+    //* los datos necesarios para crear un nuevo destino
     const newDestination = req.body;
 
-    const createNewDestination = await DestinationsModel.create(newDestination);
+    //* crea un nuevo destino
+    const { status, ok, stateMsj, data } =
+      await destinationService.createDestination(newDestination);
 
-    res.status(200).send("Todo bien");
+    res.status(status).send(stateMsj);
   } catch (err) {
     console.log(err);
     res.status(500).send("Algo salio mal al agreagar un nuevo destino");
@@ -29,13 +34,12 @@ router.post("/", async (req, res) => {
 router.delete("/delete/:nickname", async (req, res) => {
   try {
     const { nickname } = req.params;
-    const deleteDestination = await DestinationsModel.findOneAndDelete({
-      nickname,
-    });
-    if (!deleteDestination) {
-      return res.status(404).send("Destino no encontrado");
-    }
-    res.status(200).send("Destino eliminado con éxito");
+
+    //* Elimina un destino, filtrado por su nickname(nombre corto que lo identifica)
+    const { status, ok, error, stateMsj, data } =
+      await destinationService.deleteDestinatin(nickname);
+
+    res.status(status).send(stateMsj);
   } catch (err) {
     console.log(err);
     res.status(500).send("Error al eliminar el destino");

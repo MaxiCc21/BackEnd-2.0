@@ -1,21 +1,23 @@
 const { Router } = require("express");
-const DestinationsModel = require("../models/destinations.model");
 const { CleanCookie } = require("../utils/my-cookie-handle");
 const logger = require("../utils/logger");
+const { destinationService } = require("../service");
 const router = Router();
 
 router.get("/", async (req, res) => {
   try {
+    //* limpia una cookie, necesaria para hacer la compra del pasaje
     CleanCookie(req, res, "travelOptions");
 
     const userSession = req.session.user || undefined;
 
-    const getAllDestination = await DestinationsModel.find();
+    //* Recobra todos los datos de destinos que exista, para poder cargarlas en el home
+    const { data: destinations } = await destinationService.getAllDestination();
 
     const options = {
       title: "home",
       userSession,
-      destinations: getAllDestination,
+      destinations,
     };
     logger.info("Handling GET request for /");
     res.render("home", options);
