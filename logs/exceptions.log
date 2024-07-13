@@ -98,3 +98,35 @@ SyntaxError: Unexpected token ','
     at require (node:internal/modules/helpers:176:18)
     at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\service\index.js:1:28)
     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+2024-07-01T22:53:53.055Z [31merror[39m: uncaughtException: Unexpected identifier 'reservationService'
+C:\NewProgramacion\CoderHouse\BackEnd\src\service\index.js:12
+  reservationService,
+  ^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected identifier 'reservationService'
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\views.routes.js:4:32)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+2024-07-02T00:07:38.171Z [31merror[39m: uncaughtException: Unexpected token 'const'
+C:\NewProgramacion\CoderHouse\BackEnd\src\routes\searchfly.routes.js:30
+    const options = {
+    ^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:10:25)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
