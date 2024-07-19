@@ -62,6 +62,7 @@ app.use(
 //--------------- Handlebars ---------------
 const helpers = {
   toUperCaseHelper: function (str) {
+    console.log("str: ", str);
     return str.charAt(0).toUpperCase() + str.slice(1);
   },
 
@@ -95,6 +96,9 @@ app.use("/session", sessionRouter);
 app.use("/searchfly", searchflyRouter);
 app.use("/destination", destinationRouter);
 app.use("/checkout", checkoutRouter);
+app.get("*", (req, res) => {
+  res.status(404).send("Page not found");
+});
 
 const port = process.env.PORT;
 

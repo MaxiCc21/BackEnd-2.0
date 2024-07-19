@@ -1,8 +1,7 @@
 const { Router } = require("express");
 
 const { hashPassword, comparePassword } = require("../utils/bcrypt");
-const nodemailer = require("nodemailer");
-const { sendMail, sendPasswordResetEmail } = require("../utils/sendMail");
+const { sendPasswordResetEmail } = require("../utils/sendMail");
 const { userService } = require("../service");
 
 const router = Router();
@@ -21,36 +20,41 @@ router.post("/acceso", async (req, res) => {
 
     const userExist = await userService.GetOneUser({ email });
 
-    if (userExist.ok) {
+    if (!userExist.ok) {
       return res.status(400).send({
-        status: "Error",
+        status: 400,
         ok: false,
-        stateMsj: "Alguno de los datos es incorrecto",
+        stateMsj: "El email ingresado no corresponde a un usuario registrado",
       });
     }
 
-    if (await comparePassword(password, userExist.password)) {
+    const samePassword = await comparePassword(
+      password,
+      userExist.data.password
+    );
+    if (samePassword) {
       req.session.user = {
-        id: userExist._id,
-        email: userExist.email,
-        name: userExist.name,
+        id: userExist.data._id,
+        email: userExist.data.email,
+        name: userExist.data.name,
       };
 
-      return res.send({
+      return res.status(200).send({
         status: "ok",
         ok: true,
-        statusMessage: "Bienvenido",
+        stateMsj: "Bienvenido",
       });
     } else {
       return res.status(400).send({
         status: "Error",
         ok: false,
-        statusMessage: "Alguno de los datos es incorrecto",
+        stateMsj: "La contraseña es incorrecta",
       });
     }
   } catch (error) {
+    console.log(error);
     return res.status(500).send({
-      status: "Error",
+      status: 500,
       ok: false,
       statusMessage:
         "Ocurrio un error inesperado /n Por favor intente nuevamente mas tarde",
@@ -62,14 +66,11 @@ router.get("/registro", (req, res) => {
   const options = {
     title: "Crear Usuario",
   };
-
   res.render("user/user_register", options);
 });
 
 router.post("/registro", async (req, res) => {
   try {
-    const { email } = req.body;
-
     let newUserData = {
       ...req.body,
       password: "Pass1234",
@@ -82,16 +83,19 @@ router.post("/registro", async (req, res) => {
       password: encryptedPassword,
     };
 
-    const createNewUser = await userService.findOneAndUpdate(
-      { email },
-      newUserData,
-      { upsert: true, new: true }
-    );
+    const createNewUser = await userService.createNewUser(newUserData);
 
-    res.status(createNewUser.status).send(createNewUser.stateMsj);
+    res.status(createNewUser.status).send(createNewUser);
   } catch (error) {
-    console.error("Error al crear usuario:", error);
-    res.status(500).send("Error al crear usuario");
+    console.log(error);
+    return {
+      status: 500,
+      ok: false,
+      error: false,
+      stateMsj:
+        "Ocurrio un error inesperado, por favor intente nuevamente mas tarde",
+      data: null,
+    };
   }
 });
 
@@ -132,7 +136,7 @@ router.get("/userdata", async (req, res) => {
 
     const options = {
       title: "Datos de usuario",
-      userDAta: userData.data,
+      userData: userData.data,
       userSession,
     };
 

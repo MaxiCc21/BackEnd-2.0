@@ -1,5 +1,6 @@
 const { Router } = require("express");
 const { flightService, aircraftService } = require("../service");
+const { getNickName } = require("../utils/getNickName");
 
 const router = Router();
 
@@ -12,10 +13,12 @@ router.get("/", async (req, res) => {
   try {
     let { from, ticketClass, not: numberOfTicket, dateFlight } = req.query;
 
-    from = "EZE";
+    const nickName = getNickName(from);
+
+    console.log(nickName);
 
     //* busca si exites la ruta del pasaje, con el from
-    const searchFlight = await flightService.getOneFlight(from);
+    const searchFlight = await flightService.getOneFlight(nickName);
 
     if (!searchFlight.ok) {
       console.log(searchFlight.stateMsj);
@@ -40,6 +43,7 @@ router.get("/", async (req, res) => {
 
     res.render("calender", options);
   } catch (err) {
+    console.log(err);
     res
       .status(500)
       .send("Ha ocurrido un error inesperado, intente nuevamente mas tarde");

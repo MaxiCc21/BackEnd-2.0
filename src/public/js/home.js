@@ -1,3 +1,5 @@
+// const { options } = require("../../routes/session.routes");
+
 document.addEventListener("DOMContentLoaded", () => {
   const formReservatin = document.getElementById("reservationForm");
 
@@ -8,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let formData = new FormData(formReservatin);
     let lastname = formData.get("lastname");
     let reservationCode = formData.get("reservationCode");
-    console.log("dsfasdf", lastname);
+
     fetch("/checkout/reservation", {
       method: "POST",
       headers: {
@@ -75,7 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const provincesArray = options.map((item) => item.province);
-
 // Mostrar el dropdown cuando se escriba en el input
 searchInput.addEventListener("input", function () {
   const inputValue = this.value.toLowerCase();

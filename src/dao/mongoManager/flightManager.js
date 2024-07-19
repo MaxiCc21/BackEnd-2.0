@@ -3,9 +3,9 @@ const logger = require("../../utils/logger");
 
 class flightManager {
   //* Esta funcion verifica si exites la ruta que se esta buscando, don el from ej "EZE"
-  getOneFlight = async (from) => {
+  getOneFlight = async (nickName) => {
     try {
-      const searchFlight = await flightRouteModel.findOne({ origin: from });
+      const searchFlight = await flightRouteModel.findOne({ origin: nickName });
 
       if (!searchFlight) {
         return {

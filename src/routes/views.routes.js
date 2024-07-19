@@ -19,6 +19,7 @@ router.get("/", async (req, res) => {
       userSession,
       destinations,
     };
+
     logger.info("Handling GET request for /");
     res.render("home", options);
   } catch (err) {
