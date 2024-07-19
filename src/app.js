@@ -7,6 +7,7 @@ const app = express();
 const swaggerSetup = require("./config/swagger");
 const viewsRouter = require("./routes/views.routes");
 const sessionRouter = require("./routes/session.routes");
+const authRoutes = require("./routes/authRoutes.routes");
 const searchflyRouter = require("./routes/searchfly.routes");
 const destinationRouter = require("./routes/destination.routes");
 const checkoutRouter = require("./routes/checkout.routes");
@@ -92,10 +93,11 @@ app.use((req, res, next) => {
 // !TODO Logger Winston
 
 app.use("/home", viewsRouter);
-app.use("/session", sessionRouter);
+// app.use("/session", sessionRouter);
 app.use("/searchfly", searchflyRouter);
 app.use("/destination", destinationRouter);
 app.use("/checkout", checkoutRouter);
+
 app.get("*", (req, res) => {
   res.status(404).send("Page not found");
 });

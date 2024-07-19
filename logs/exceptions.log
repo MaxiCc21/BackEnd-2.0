@@ -210,3 +210,585 @@ SyntaxError: missing ) after argument list
     at require (node:internal/modules/helpers:176:18)
     at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:9:23)
     at Module._compile (node:internal/modules/cjs/loader:1376:14)
+2024-07-19T20:47:14.922Z [31merror[39m: uncaughtException: router is not defined
+ReferenceError: router is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:100:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-19T20:47:19.085Z [31merror[39m: uncaughtException: authController is not defined
+ReferenceError: authController is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:100:20)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-19T20:48:01.814Z [31merror[39m: uncaughtException: authRoutes is not defined
+ReferenceError: authRoutes is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:99:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-19T20:48:14.239Z [31merror[39m: uncaughtException: authRoutes is not defined
+ReferenceError: authRoutes is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:99:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-19T20:48:28.597Z [31merror[39m: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:100:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+2024-07-19T20:48:34.141Z [31merror[39m: uncaughtException: Cannot find module '../controllers/authController'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../controllers/authController'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T20:50:27.244Z [31merror[39m: uncaughtException: Cannot find module '../controllers/authController'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../controllers/authController'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T20:50:29.460Z [31merror[39m: uncaughtException: Cannot find module '../controllers/authController'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../controllers/authController'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T20:52:52.206Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T20:53:09.721Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:03:29.697Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:04:11.630Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:04:24.784Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:04:30.166Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:07:38.205Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:07:45.002Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:07:46.131Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:07:57.726Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:07:59.545Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:08:03.376Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:09:34.912Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:09:43.906Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:09:51.622Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:10:02.419Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:11:01.243Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:18:31.295Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:18:35.485Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:19:18.359Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:20:09.491Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:20:18.036Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:20:20.548Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-19T21:20:23.015Z [31merror[39m: uncaughtException: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../models/user'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\authRoutes.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\authController.js:1:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
