@@ -328,3 +328,248 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 2024-07-01T19:23:11.523Z [32minfo[39m: GET /favicon.ico
 2024-07-01T20:44:44.152Z [32minfo[39m: GET /home
 2024-07-01T20:44:44.327Z [32minfo[39m: Handling GET request for /
+2024-07-13T23:29:00.386Z [32minfo[39m: GET /home
+2024-07-13T23:29:00.563Z [32minfo[39m: Handling GET request for /
+2024-07-13T23:29:00.917Z [32minfo[39m: GET /favicon.ico
+2024-07-13T23:29:03.133Z [32minfo[39m: GET /home
+2024-07-13T23:29:03.296Z [32minfo[39m: Handling GET request for /
+2024-07-13T23:54:27.289Z [32minfo[39m: GET /home
+2024-07-13T23:54:28.314Z [32minfo[39m: Handling GET request for /
+2024-07-13T23:54:31.416Z [32minfo[39m: GET /home
+2024-07-13T23:54:31.586Z [32minfo[39m: Handling GET request for /
+2024-07-14T00:03:43.977Z [32minfo[39m: GET /home
+2024-07-14T00:03:44.151Z [32minfo[39m: Handling GET request for /
+2024-07-14T00:04:26.358Z [32minfo[39m: GET /home
+2024-07-14T00:04:27.474Z [32minfo[39m: Handling GET request for /
+2024-07-14T00:08:21.225Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Buenos+Aires&ticketClass=economy&not=1&dateFlight=2024-07-17
+2024-07-14T00:43:10.727Z [32minfo[39m: GET /home
+2024-07-14T00:43:10.930Z [32minfo[39m: Handling GET request for /
+2024-07-14T00:43:24.109Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Jujuy&ticketClass=economy&not=1&dateFlight=2024-07-25
+2024-07-14T00:59:18.878Z [32minfo[39m: GET /home
+2024-07-14T00:59:19.049Z [32minfo[39m: Handling GET request for /
+2024-07-14T00:59:41.005Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Jujuy&ticketClass=economy&not=1&dateFlight=2024-07-25
+2024-07-14T01:00:02.004Z [32minfo[39m: GET /home
+2024-07-14T01:00:02.174Z [32minfo[39m: Handling GET request for /
+2024-07-14T01:00:45.581Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Jujuy&ticketClass=economy&not=1&dateFlight=2024-07-26
+2024-07-14T01:00:45.743Z [31merror[39m: File AircraftManager.js Error:  Cannot read properties of null (reading 'aircraftId')
+2024-07-14T01:07:15.132Z [32minfo[39m: GET /home
+2024-07-14T01:07:15.297Z [32minfo[39m: Handling GET request for /
+2024-07-14T01:07:37.138Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Buenos+Aires&ticketClass=economy&not=1&dateFlight=2024-07-23
+2024-07-14T01:11:42.730Z [32minfo[39m: GET /home
+2024-07-14T01:11:42.893Z [32minfo[39m: Handling GET request for /
+2024-07-14T01:12:36.651Z [32minfo[39m: GET /home
+2024-07-14T01:12:36.814Z [32minfo[39m: Handling GET request for /
+2024-07-14T01:13:49.307Z [32minfo[39m: GET /home
+2024-07-14T01:13:49.477Z [32minfo[39m: Handling GET request for /
+2024-07-14T01:14:09.893Z [32minfo[39m: GET /home
+2024-07-14T01:14:10.052Z [32minfo[39m: Handling GET request for /
+2024-07-14T22:47:45.243Z [32minfo[39m: GET /home
+2024-07-14T22:47:47.288Z [32minfo[39m: Handling GET request for /
+2024-07-14T22:47:47.650Z [32minfo[39m: GET /favicon.ico
+2024-07-14T22:47:50.617Z [32minfo[39m: GET /home
+2024-07-14T22:47:50.791Z [32minfo[39m: Handling GET request for /
+2024-07-14T22:48:03.179Z [32minfo[39m: GET /session/acceso
+2024-07-14T22:48:14.735Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:48:39.382Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:49:22.146Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:50:02.434Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:50:17.321Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:52:15.897Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:52:26.607Z [32minfo[39m: GET /home
+2024-07-14T22:52:27.146Z [32minfo[39m: Handling GET request for /
+2024-07-14T22:52:28.490Z [32minfo[39m: GET /session/acceso
+2024-07-14T22:52:32.005Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:53:10.015Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:53:59.082Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:54:02.573Z [32minfo[39m: GET /session/acceso
+2024-07-14T22:54:05.263Z [32minfo[39m: POST /session/acceso
+2024-07-14T22:58:33.457Z [32minfo[39m: GET /session/acceso
+2024-07-14T22:58:35.581Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:00:02.763Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:00:05.333Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:00:37.856Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:00:40.430Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:01:01.264Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:01:04.294Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:01:19.360Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:01:24.726Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:01:52.643Z [32minfo[39m: GET /session/registro
+2024-07-14T23:02:12.053Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:02:13.941Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:02:14.826Z [32minfo[39m: GET /session/registro
+2024-07-14T23:02:22.211Z [32minfo[39m: GET /session/registro
+2024-07-14T23:02:24.474Z [32minfo[39m: GET /session/recuperarContrasena
+2024-07-14T23:09:46.280Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:09:54.030Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:10:11.856Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:12:43.002Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:12:50.999Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:15:10.468Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:15:11.789Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:15:13.516Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:15:18.142Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:16:53.368Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:17:00.525Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:18:02.921Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:18:04.961Z [32minfo[39m: GET /home
+2024-07-14T23:18:05.125Z [32minfo[39m: Handling GET request for /
+2024-07-14T23:18:17.200Z [32minfo[39m: GET /home
+2024-07-14T23:18:17.358Z [32minfo[39m: Handling GET request for /
+2024-07-14T23:18:18.642Z [32minfo[39m: GET /session/acceso
+2024-07-14T23:18:40.138Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:18:41.770Z [32minfo[39m: GET /session/registro
+2024-07-14T23:19:11.802Z [32minfo[39m: POST /session/registro
+2024-07-14T23:19:23.169Z [32minfo[39m: POST /session/registro
+2024-07-14T23:19:31.513Z [32minfo[39m: GET /session/registro
+2024-07-14T23:20:11.193Z [32minfo[39m: POST /session/registro
+2024-07-14T23:46:13.634Z [32minfo[39m: GET /session/registro
+2024-07-14T23:46:32.720Z [32minfo[39m: POST /session/registro
+2024-07-14T23:46:47.446Z [32minfo[39m: GET /session/registro
+2024-07-14T23:46:53.156Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:47:03.747Z [32minfo[39m: POST /session/acceso
+2024-07-14T23:47:32.271Z [32minfo[39m: GET /session/registro
+2024-07-14T23:47:39.039Z [32minfo[39m: POST /session/registro
+2024-07-15T00:16:59.743Z [32minfo[39m: GET /session/registro
+2024-07-15T00:17:12.487Z [32minfo[39m: POST /session/registro
+2024-07-15T00:23:29.791Z [32minfo[39m: GET /session/registro
+2024-07-15T00:23:40.702Z [32minfo[39m: POST /session/registro
+2024-07-15T00:32:42.128Z [32minfo[39m: GET /session/registro
+2024-07-15T00:32:54.377Z [32minfo[39m: POST /session/registro
+2024-07-15T00:32:58.114Z [32minfo[39m: POST /session/registro
+2024-07-15T00:34:50.651Z [32minfo[39m: GET /session/registro
+2024-07-15T00:35:02.865Z [32minfo[39m: POST /session/registro
+2024-07-15T00:50:35.771Z [32minfo[39m: GET /session/registro
+2024-07-15T00:50:53.565Z [32minfo[39m: POST /session/registro
+2024-07-15T00:51:30.268Z [32minfo[39m: GET /session/registro
+2024-07-15T00:51:45.228Z [32minfo[39m: POST /session/registro
+2024-07-15T00:52:27.888Z [32minfo[39m: GET /session/registro
+2024-07-15T00:54:04.072Z [32minfo[39m: GET /session/registro
+2024-07-15T00:54:27.878Z [32minfo[39m: GET /session/registro
+2024-07-15T00:54:41.024Z [32minfo[39m: POST /session/registro
+2024-07-15T01:21:10.232Z [32minfo[39m: GET /session/registro
+2024-07-15T01:21:19.663Z [32minfo[39m: POST /session/registro
+2024-07-15T01:22:10.309Z [32minfo[39m: GET /session/registro
+2024-07-15T01:22:23.719Z [32minfo[39m: POST /session/registro
+2024-07-15T17:39:49.674Z [32minfo[39m: GET /home
+2024-07-15T17:39:50.890Z [32minfo[39m: Handling GET request for /
+2024-07-15T17:39:51.271Z [32minfo[39m: GET /favicon.ico
+2024-07-15T17:39:58.226Z [32minfo[39m: GET /session/acceso
+2024-07-15T17:40:00.904Z [32minfo[39m: GET /session/registro
+2024-07-15T17:40:15.040Z [32minfo[39m: POST /session/registro
+2024-07-15T17:40:15.449Z [32minfo[39m: GET /session/acceso
+2024-07-15T17:42:02.300Z [32minfo[39m: GET /session/registro
+2024-07-15T17:42:13.964Z [32minfo[39m: POST /session/registro
+2024-07-15T17:42:33.733Z [32minfo[39m: POST /session/registro
+2024-07-15T17:43:49.578Z [32minfo[39m: GET /session/registro
+2024-07-15T17:43:57.827Z [32minfo[39m: POST /session/registro
+2024-07-15T17:43:59.236Z [32minfo[39m: GET /session/acceso
+2024-07-15T17:44:12.092Z [32minfo[39m: GET /session/registro
+2024-07-15T17:44:21.572Z [32minfo[39m: POST /session/registro
+2024-07-15T17:44:23.508Z [32minfo[39m: GET /session/acceso
+2024-07-15T17:44:29.324Z [32minfo[39m: GET /session/registro
+2024-07-15T17:52:27.503Z [32minfo[39m: POST /session/registro
+2024-07-15T17:52:29.625Z [32minfo[39m: GET /session/acceso
+2024-07-15T17:56:36.228Z [32minfo[39m: GET /session/acceso
+2024-07-15T17:56:37.208Z [32minfo[39m: GET /session/registro
+2024-07-15T17:56:44.339Z [32minfo[39m: POST /session/registro
+2024-07-15T17:56:58.836Z [32minfo[39m: POST /session/registro
+2024-07-15T17:57:41.363Z [32minfo[39m: GET /session/acceso
+2024-07-15T17:57:47.363Z [32minfo[39m: POST /session/acceso
+2024-07-18T20:58:14.239Z [32minfo[39m: GET /home
+2024-07-18T20:58:14.416Z [32minfo[39m: Handling GET request for /
+2024-07-18T20:58:14.770Z [32minfo[39m: GET /favicon.ico
+2024-07-18T20:58:39.813Z [32minfo[39m: GET /session/acceso
+2024-07-18T20:59:25.864Z [32minfo[39m: POST /session/acceso
+2024-07-18T20:59:34.740Z [32minfo[39m: GET /session/registro
+2024-07-18T20:59:41.608Z [32minfo[39m: POST /session/registro
+2024-07-18T21:02:02.444Z [32minfo[39m: GET /session/acceso
+2024-07-18T21:04:32.171Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:05:06.454Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:08:07.051Z [32minfo[39m: GET /session/recuperarContrasena
+2024-07-18T21:08:10.018Z [32minfo[39m: GET /session/registro
+2024-07-18T21:08:25.928Z [32minfo[39m: POST /session/registro
+2024-07-18T21:09:02.199Z [32minfo[39m: POST /session/registro
+2024-07-18T21:09:04.298Z [32minfo[39m: GET /session/acceso
+2024-07-18T21:09:11.552Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:09:19.981Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:09:42.994Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:09:51.130Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:12:20.490Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:14:04.234Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:14:36.690Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:15:20.304Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:15:20.876Z [32minfo[39m: GET /home
+2024-07-18T21:15:21.044Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:15:35.248Z [32minfo[39m: GET /session/acceso
+2024-07-18T21:15:39.066Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:15:45.288Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:15:45.840Z [32minfo[39m: GET /home
+2024-07-18T21:15:46.006Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:19:56.895Z [32minfo[39m: GET /home
+2024-07-18T21:19:57.399Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:21:15.353Z [32minfo[39m: GET /home
+2024-07-18T21:21:16.457Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:21:53.963Z [32minfo[39m: GET /home
+2024-07-18T21:21:54.129Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:22:18.179Z [32minfo[39m: GET /home
+2024-07-18T21:22:18.367Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:24:59.826Z [32minfo[39m: GET /home
+2024-07-18T21:25:00.002Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:25:15.410Z [32minfo[39m: GET /home
+2024-07-18T21:25:15.580Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:25:16.838Z [32minfo[39m: GET /session/logout
+2024-07-18T21:25:17.168Z [32minfo[39m: GET /home
+2024-07-18T21:25:17.331Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:25:19.585Z [32minfo[39m: GET /session/acceso
+2024-07-18T21:25:23.010Z [32minfo[39m: POST /session/acceso
+2024-07-18T21:25:23.600Z [32minfo[39m: GET /home
+2024-07-18T21:25:23.778Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:26:07.275Z [32minfo[39m: GET /home
+2024-07-18T21:26:07.457Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:26:16.833Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:30:39.008Z [32minfo[39m: GET /session/acceso
+2024-07-18T21:30:40.075Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:31:08.054Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:31:19.086Z [32minfo[39m: GET /home
+2024-07-18T21:31:19.284Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:31:21.900Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:32:08.506Z [32minfo[39m: GET /home
+2024-07-18T21:32:08.687Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:32:09.899Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:34:21.818Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:34:52.132Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:34:59.577Z [32minfo[39m: GET /home
+2024-07-18T21:34:59.763Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:35:01.597Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:35:19.557Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:35:25.723Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:36:45.647Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:36:55.267Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:37:22.179Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:37:38.253Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:39:41.937Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:40:01.823Z [32minfo[39m: GET /session/userdata
+2024-07-18T21:40:22.649Z [32minfo[39m: GET /home
+2024-07-18T21:40:22.817Z [32minfo[39m: Handling GET request for /
+2024-07-18T21:40:24.280Z [32minfo[39m: GET /session/logout
+2024-07-18T21:40:24.634Z [32minfo[39m: GET /home
+2024-07-18T21:40:24.796Z [32minfo[39m: Handling GET request for /
+2024-07-19T18:38:01.541Z [32minfo[39m: GET /session/registro
+2024-07-19T18:38:02.438Z [32minfo[39m: GET /session/registro
+2024-07-19T18:38:02.973Z [32minfo[39m: GET /favicon.ico
+2024-07-19T18:38:05.206Z [32minfo[39m: GET /home
+2024-07-19T18:38:05.378Z [32minfo[39m: Handling GET request for /
+2024-07-19T18:38:10.401Z [32minfo[39m: GET /session/acceso
+2024-07-19T18:38:15.654Z [32minfo[39m: POST /session/acceso
+2024-07-19T18:38:16.227Z [32minfo[39m: GET /home
+2024-07-19T18:38:16.386Z [32minfo[39m: Handling GET request for /
+2024-07-19T18:38:19.848Z [32minfo[39m: GET /session/logout
+2024-07-19T18:38:20.176Z [32minfo[39m: GET /home
+2024-07-19T18:38:20.356Z [32minfo[39m: Handling GET request for /
+2024-07-19T19:04:52.169Z [32minfo[39m: GET /home
+2024-07-19T19:04:52.331Z [32minfo[39m: Handling GET request for /
+2024-07-19T19:04:57.901Z [32minfo[39m: GET /session/acceso
+2024-07-19T19:05:01.259Z [32minfo[39m: GET /session/registro
+2024-07-19T19:05:04.011Z [32minfo[39m: GET /home
+2024-07-19T19:05:04.168Z [32minfo[39m: Handling GET request for /
+2024-07-19T19:27:00.191Z [32minfo[39m: GET /adsfsdf

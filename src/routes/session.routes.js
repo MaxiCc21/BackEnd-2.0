@@ -1,8 +1,8 @@
 const { Router } = require("express");
-const UserModel = require("../models/user.model");
+
 const { hashPassword, comparePassword } = require("../utils/bcrypt");
-const nodemailer = require("nodemailer");
-const { sendMail, sendPasswordResetEmail } = require("../utils/sendMail");
+const { sendPasswordResetEmail } = require("../utils/sendMail");
+const { userService } = require("../service");
 
 const router = Router();
 
@@ -18,38 +18,43 @@ router.post("/acceso", async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    const userExist = await UserModel.findOne({ email });
+    const userExist = await userService.GetOneUser({ email });
 
-    if (!userExist) {
+    if (!userExist.ok) {
       return res.status(400).send({
-        status: "Error",
+        status: 400,
         ok: false,
-        statusMessage: "Alguno de los datos es incorrecto",
+        stateMsj: "El email ingresado no corresponde a un usuario registrado",
       });
     }
 
-    if (await comparePassword(password, userExist.password)) {
+    const samePassword = await comparePassword(
+      password,
+      userExist.data.password
+    );
+    if (samePassword) {
       req.session.user = {
-        id: userExist._id,
-        email: userExist.email,
-        name: userExist.name,
+        id: userExist.data._id,
+        email: userExist.data.email,
+        name: userExist.data.name,
       };
 
-      return res.send({
+      return res.status(200).send({
         status: "ok",
         ok: true,
-        statusMessage: "Bienvenido",
+        stateMsj: "Bienvenido",
       });
     } else {
       return res.status(400).send({
         status: "Error",
         ok: false,
-        statusMessage: "Alguno de los datos es incorrecto",
+        stateMsj: "La contraseña es incorrecta",
       });
     }
   } catch (error) {
+    console.log(error);
     return res.status(500).send({
-      status: "Error",
+      status: 500,
       ok: false,
       statusMessage:
         "Ocurrio un error inesperado /n Por favor intente nuevamente mas tarde",
@@ -61,14 +66,11 @@ router.get("/registro", (req, res) => {
   const options = {
     title: "Crear Usuario",
   };
-
   res.render("user/user_register", options);
 });
 
 router.post("/registro", async (req, res) => {
   try {
-    const { email } = req.body;
-
     let newUserData = {
       ...req.body,
       password: "Pass1234",
@@ -81,21 +83,19 @@ router.post("/registro", async (req, res) => {
       password: encryptedPassword,
     };
 
-    const createNewUser = await UserModel.findOneAndUpdate(
-      { email },
-      newUserData,
-      { upsert: true, new: true }
-    );
+    const createNewUser = await userService.createNewUser(newUserData);
 
-    if (createNewUser) {
-      res.send("Usuario creado correctamente");
-    } else {
-      console.error("El Usuario ya existe");
-      res.status(500).send("El Usuario ya existe");
-    }
+    res.status(createNewUser.status).send(createNewUser);
   } catch (error) {
-    console.error("Error al crear usuario:", error);
-    res.status(500).send("Error al crear usuario");
+    console.log(error);
+    return {
+      status: 500,
+      ok: false,
+      error: false,
+      stateMsj:
+        "Ocurrio un error inesperado, por favor intente nuevamente mas tarde",
+      data: null,
+    };
   }
 });
 
@@ -104,9 +104,9 @@ router.delete("/registro/:email", async (req, res) => {
     // const {email} = req.body
     const userEmail = req.params.email;
 
-    const deleteUser = await UserModel.findOneAndDelete({ email: userEmail });
+    const deleteUser = await userService.DeleteOneUser({ email: userEmail });
 
-    if (deleteUser.deletedCount != 1) {
+    if (!deleteUser.ok) {
       res.send("Usuario eliminado correctamente");
     } else {
       res.status(404).send("Usuario no encontrado");
@@ -132,11 +132,11 @@ router.get("/userdata", async (req, res) => {
     const userSession = req.session.user || undefined;
     const ID = userSession.id;
 
-    const userData = await UserModel.findOne({ _id: ID }).lean();
+    const userData = await userService.GetOneUser({ _id: ID });
 
     const options = {
       title: "Datos de usuario",
-      userData,
+      userData: userData.data,
       userSession,
     };
 
@@ -156,11 +156,11 @@ router.post("/recuperarContrasena", async (req, res) => {
   try {
     let { email_recoverPassword } = req.body;
 
-    const findUpdatePassword = await UserModel.findOne({
+    const findUpdatePassword = await userService.GetOneUser({
       email: email_recoverPassword,
     });
 
-    if (!findUpdatePassword) {
+    if (!findUpdatePassword.ok) {
       res.status(400).send({
         status: 400,
         ok: false,
@@ -205,12 +205,12 @@ router.post("/recuperarContrasena", async (req, res) => {
 router.get("/cambiar-contrasena", async (req, res) => {
   try {
     const { token } = req.query;
-    const user = await UserModel.findOne({
+    const user = await userService.GetOneUser({
       resetPasswordToken: token,
       resetPasswordExpires: { $gt: Date.now() },
     });
 
-    if (!user) {
+    if (!user.ok) {
       return res
         .status(400)
         .send(
@@ -233,12 +233,12 @@ router.post("/cambiar-contrasena", async (req, res) => {
       return res.status(400).send("Token no proporcionado.");
     }
 
-    const user = await UserModel.findOne({
+    const user = await userService.GetOneUser({
       resetPasswordToken: token,
       resetPasswordExpires: { $gt: Date.now() },
     });
 
-    if (!user) {
+    if (!user.ok) {
       return res
         .status(400)
         .send(
@@ -246,10 +246,12 @@ router.post("/cambiar-contrasena", async (req, res) => {
         );
     }
 
-    user.password = await hashPassword(newPassword);
-    user.resetPasswordToken = undefined;
-    user.resetPasswordExpires = undefined;
-    await user.save();
+    const { data: userData } = user;
+
+    userData.password = await hashPassword(newPassword);
+    userData.resetPasswordToken = undefined;
+    userData.resetPasswordExpires = undefined;
+    await userData.save();
 
     res.send("Contraseña restablecida con éxito.");
   } catch (err) {

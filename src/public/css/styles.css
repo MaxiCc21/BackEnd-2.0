@@ -348,6 +348,18 @@ nav a:hover {
   background-color: #0f6054;
 }
 
+/* Estilo para el botón de reintentar */
+.swal2-confirm.custom-retry {
+  background-color: #09987e; /* Color de fondo */
+  color: white; /* Color del texto */
+}
+
+/* Estilo para el botón de registrarse */
+.swal2-cancel.custom-register {
+  background-color: main-btn-hoover-color; /* Color de fondo */
+  color: white; /* Color del texto */
+}
+
 .searchFlyForm-middle-section {
   display: flex;
   justify-content: space-evenly;

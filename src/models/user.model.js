@@ -29,7 +29,7 @@ const userSchema = new Schema({
     required: true,
   },
   docNumber: {
-    type: String,
+    type: Number,
     required: true,
   },
   createdAt: {
