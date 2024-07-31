@@ -746,3 +746,89 @@ MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefin
 2024-07-31T17:25:31.817Z [32minfo[39m: POST /api/payment/create-payment-intent
 2024-07-31T17:25:36.966Z [32minfo[39m: GET /home
 2024-07-31T17:25:37.129Z [32minfo[39m: Handling GET request for /
+2024-07-31T17:48:14.838Z [32minfo[39m: GET /session/acceso
+2024-07-31T17:48:19.089Z [32minfo[39m: GET /home
+2024-07-31T17:48:19.252Z [32minfo[39m: Handling GET request for /
+2024-07-31T17:48:55.079Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Buenos+Aires&ticketClass=economy&not=1&dateFlight=2024-07-31
+2024-07-31T17:48:59.507Z [32minfo[39m: POST /searchfly
+2024-07-31T17:48:59.680Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T17:50:16.397Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T17:50:19.768Z [32minfo[39m: GET /home
+2024-07-31T17:50:19.928Z [32minfo[39m: Handling GET request for /
+2024-07-31T17:50:46.612Z [32minfo[39m: POST /checkout/reservation
+2024-07-31T17:51:02.711Z [32minfo[39m: POST /checkout/reservation
+2024-07-31T17:51:16.390Z [32minfo[39m: POST /checkout/reservation
+2024-07-31T17:52:00.201Z [32minfo[39m: POST /checkout/reservation
+2024-07-31T17:52:11.179Z [32minfo[39m: GET /session/acceso
+2024-07-31T17:52:19.830Z [32minfo[39m: POST /session/acceso
+2024-07-31T17:52:20.395Z [32minfo[39m: GET /home
+2024-07-31T17:52:20.554Z [32minfo[39m: Handling GET request for /
+2024-07-31T17:52:30.656Z [32minfo[39m: GET /home
+2024-07-31T17:52:30.814Z [32minfo[39m: Handling GET request for /
+2024-07-31T17:52:33.953Z [32minfo[39m: GET /home
+2024-07-31T17:52:34.112Z [32minfo[39m: Handling GET request for /
+2024-07-31T17:53:03.721Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Buenos+Aires&ticketClass=economy&not=1&dateFlight=2024-07-31
+2024-07-31T17:53:06.420Z [32minfo[39m: POST /searchfly
+2024-07-31T17:53:07.433Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T17:55:08.787Z [32minfo[39m: GET /session/acceso
+2024-07-31T17:56:19.740Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T17:56:23.245Z [32minfo[39m: GET /home
+2024-07-31T17:56:23.414Z [32minfo[39m: Handling GET request for /
+2024-07-31T17:56:27.448Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T17:56:31.364Z [32minfo[39m: POST /searchfly
+2024-07-31T17:56:32.421Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T17:57:09.509Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T17:57:10.002Z [32minfo[39m: GET /api/payment
+2024-07-31T18:04:09.347Z [32minfo[39m: GET /home
+2024-07-31T18:04:09.513Z [32minfo[39m: Handling GET request for /
+2024-07-31T18:04:24.610Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Buenos+Aires&ticketClass=economy&not=1&dateFlight=2024-08-08
+2024-07-31T18:04:27.466Z [32minfo[39m: POST /searchfly
+2024-07-31T18:04:28.495Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T18:04:57.202Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T18:04:57.528Z [32minfo[39m: GET /api/payment
+2024-07-31T18:09:33.738Z [32minfo[39m: POST /api/payment/create-payment-intent
+2024-07-31T18:10:25.335Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T18:16:35.317Z [32minfo[39m: POST /searchfly
+2024-07-31T18:16:36.384Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T18:16:44.777Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T18:16:45.115Z [32minfo[39m: GET /api/payment
+2024-07-31T18:19:50.045Z [32minfo[39m: GET /api/payment
+2024-07-31T18:20:01.861Z [32minfo[39m: GET /api/payment
+2024-07-31T18:20:03.279Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T18:20:04.285Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T18:20:10.430Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T18:20:10.749Z [32minfo[39m: GET /api/payment
+2024-07-31T18:21:00.464Z [32minfo[39m: GET /api/payment
+2024-07-31T18:21:15.510Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T18:21:15.844Z [32minfo[39m: GET /api/payment
+2024-07-31T18:21:40.624Z [32minfo[39m: GET /api/payment
+2024-07-31T18:22:07.262Z [32minfo[39m: GET /api/payment
+2024-07-31T18:22:43.065Z [32minfo[39m: GET /api/payment
+2024-07-31T18:22:53.675Z [32minfo[39m: GET /api/payment
+2024-07-31T18:23:05.143Z [32minfo[39m: GET /api/payment
+2024-07-31T18:23:36.760Z [32minfo[39m: GET /api/payment
+2024-07-31T18:24:03.642Z [32minfo[39m: GET /api/payment
+2024-07-31T18:24:23.896Z [32minfo[39m: GET /api/payment
+2024-07-31T18:24:41.902Z [32minfo[39m: GET /api/payment
+2024-07-31T18:28:40.059Z [32minfo[39m: POST /api/payment/create-payment-intent
+2024-07-31T18:28:40.960Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:279:15)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:50:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-31T18:29:25.118Z [32minfo[39m: GET /api/payment
+2024-07-31T18:29:37.940Z [32minfo[39m: POST /api/payment/create-payment-intent
+2024-07-31T18:29:45.040Z [32minfo[39m: POST /api/payment/create-payment-intent
+2024-07-31T18:29:53.488Z [32minfo[39m: GET /home
+2024-07-31T18:29:53.652Z [32minfo[39m: Handling GET request for /
+2024-07-31T18:30:29.227Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Buenos+Aires&ticketClass=economy&not=1&dateFlight=2024-08-08
+2024-07-31T18:30:34.368Z [32minfo[39m: POST /searchfly
+2024-07-31T18:30:35.458Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T18:30:53.034Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T18:30:53.380Z [32minfo[39m: GET /api/payment
+2024-07-31T18:31:04.470Z [32minfo[39m: POST /api/payment/create-payment-intent
+2024-07-31T18:31:12.075Z [32minfo[39m: GET /home
+2024-07-31T18:31:12.231Z [32minfo[39m: Handling GET request for /

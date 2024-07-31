@@ -15,8 +15,6 @@ router.get("/", async (req, res) => {
 
     const nickName = getNickName(from);
 
-    console.log(nickName);
-
     //* busca si exites la ruta del pasaje, con el from
     const searchFlight = await flightService.getOneFlight(nickName);
 

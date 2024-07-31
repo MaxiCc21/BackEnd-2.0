@@ -1,5 +1,6 @@
 const express = require("express");
 const paymentController = require("../controllers/paymentController");
+const { reservationService } = require("../service");
 const stripe = require("stripe")(
   "sk_test_51Ns4MgHXAnuZTFFP8uOuQJQkbVY0UtrHPxwiqxhRBdKxuOHlSepdbH10dEG2GxVkIa37GAedf1MuHgZRXng0dXka00rPseOCyN"
 );
@@ -7,7 +8,13 @@ const stripe = require("stripe")(
 const router = express.Router();
 
 router.get("/", async (req, res) => {
-  res.render("payments/payments");
+  let currentValue = JSON.parse(req.cookies.travelOptions);
+
+  const options = {
+    amount: currentValue.price,
+  };
+
+  res.render("payments/payments", options);
 });
 
 router.post("/create-payment-intent", async (req, res) => {
@@ -23,18 +30,27 @@ router.post("/create-payment-intent", async (req, res) => {
       },
     });
 
-    // Enviar el client_secret al cliente
-    res.json({ client_secret: paymentIntent.client_secret });
+    let currentValue = JSON.parse(req.cookies.travelOptions);
+
+    const flightReservationData = {
+      ...currentValue,
+      ...req.body,
+    };
+
+    const { status, ok, error, stateMsj, data } =
+      await reservationService.postReservation(flightReservationData);
+
+    res.status(200).json({ client_secret: paymentIntent.client_secret });
   } catch (error) {
     console.error("Error creando PaymentIntent:", error.message);
     res.status(500).json({ error: error.message });
   }
 });
 
-// Ruta para confirmar un Payment Intent
-router.post(
-  "/confirm-payment-intent",
-  paymentController.handleConfirmPaymentIntent
-);
+// // Ruta para confirmar un Payment Intent
+// router.post(
+//   "/confirm-payment-intent",
+//   paymentController.handleConfirmPaymentIntent
+// );
 
 module.exports = router;

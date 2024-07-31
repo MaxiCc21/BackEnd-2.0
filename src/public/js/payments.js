@@ -52,7 +52,7 @@ cardElement.mount("#card-element");
 
 const submitButton = document.getElementById("submit-button");
 const errorMessage = document.getElementById("error-message");
-
+console.log("amount: ", amount * 100);
 submitButton.addEventListener("click", async (e) => {
   e.preventDefault();
   // Mostrar el loader de SweetAlert2
@@ -74,7 +74,7 @@ submitButton.addEventListener("click", async (e) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        amount: 5000, // Monto en centavos (p. ej., $50.00 USD)
+        amount: amount * 100, // Monto en centavos (p. ej., $50.00 USD)
         currency: "usd",
       }),
     });
@@ -85,7 +85,6 @@ submitButton.addEventListener("click", async (e) => {
       throw new Error("Client secret not found in response");
     }
 
-    // Añadir la configuración de return_url
     const { error, paymentIntent } = await stripe.confirmCardPayment(
       client_secret,
       {
@@ -112,9 +111,7 @@ submitButton.addEventListener("click", async (e) => {
           text: "Tu pago ha sido procesado con éxito.",
           confirmButtonText: "Cerrar",
         }).then(() => {
-          setTimeout(() => {
-            window.location.href = "http://localhost:9191/home";
-          }, 1000);
+          window.location.href = "http://localhost:9191/home";
         });
       }
     }, 2000);
