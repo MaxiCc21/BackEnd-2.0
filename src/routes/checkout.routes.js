@@ -31,25 +31,22 @@ router.post("/passengers", async (req, res) => {
     //   ...currentValue,
     //   ...req.body,
     // };
-    const flightReservationData = {
+    const newCookieValue = {
       ...currentValue,
       ...req.body,
     };
 
-    // res.cookie("travelOptions", JSON.stringify(newCookieValue), {
-    //   maxAge: 900000,
-    //   httpOnly: true,
-    // });
+    res.cookie("travelOptions", JSON.stringify(newCookieValue), {
+      maxAge: 900000,
+      httpOnly: true,
+    });
 
-    const { status, ok, error, stateMsj, data } =
-      await reservationService.postReservation(flightReservationData);
-
-    return res.status(status).send({
-      status,
-      ok,
-      error,
-      stateMsj,
-      data,
+    return res.status(200).send({
+      status: 200,
+      ok: true,
+      error: false,
+      stateMsj: "OK",
+      data: null,
     });
   } catch (err) {
     console.log(err);

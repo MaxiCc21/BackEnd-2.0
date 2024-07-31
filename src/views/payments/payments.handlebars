@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stripe Payment</title>
+    <script src="https://js.stripe.com/v3/"></script>
+  </head>
+  <body>
+    <h2>Pay with Stripe</h2>
+
+    <form id="payment-form">
+      <h1>Total a pagar: {{amount}}</h1>
+      <div id="card-element"><!--Stripe.js injects the Card Element--></div>
+
+      <button id="submit-button">Pay</button>
+    </form>
+    <div id="error-message" class="error-message"></div>
+
+    <script>
+      var amount =
+      {{amount}}
+    </script>
+    <script src="/static/js/payments.js"></script>
+  </body>
+</html>

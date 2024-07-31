@@ -110,3 +110,35 @@ MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefin
     at Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
+2024-07-31T18:21:00.468Z [31merror[39m: unhandledRejection: Cannot create property '_locals' on number '4500000'
+TypeError: Cannot create property '_locals' on number '4500000'
+    at ServerResponse.render (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:1039:16)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:14:7
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:175:3)
+2024-07-31T18:21:15.846Z [31merror[39m: unhandledRejection: Cannot create property '_locals' on number '4500000'
+TypeError: Cannot create property '_locals' on number '4500000'
+    at ServerResponse.render (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:1039:16)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:14:7
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\router\index.js:175:3)
+2024-07-31T18:28:40.960Z [31merror[39m: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:652:11)
+    at ServerResponse.header (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:279:15)
+    at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:50:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

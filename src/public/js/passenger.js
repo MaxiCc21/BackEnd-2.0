@@ -18,21 +18,24 @@ $passengersFORM.addEventListener("submit", (e) => {
       return response.json();
     })
     .then((data) => {
+      if (data.ok) {
+        window.location.href = "/api/payment";
+      }
       let text = data.stateMsj;
       let title = data.ok
         ? "Gracias por volar con nosotors"
         : "Perdon por las molestias";
-      Swal.fire({
-        title,
-        text,
-        timer: 3000,
-        timerProgressBar: true,
-        allowOutsideClick: false,
-        allowEscapeKey: false,
-        allowEnterKey: false,
-        showConfirmButton: false,
-      }).then(() => {
-        window.location.href = "/home";
-      });
+      // Swal.fire({
+      //   title,
+      //   text,
+      //   timer: 3000,
+      //   timerProgressBar: true,
+      //   allowOutsideClick: false,
+      //   allowEscapeKey: false,
+      //   allowEnterKey: false,
+      //   showConfirmButton: false,
+      // }).then(() => {
+      //   window.location.href = "/home";
+      // });
     });
 });
