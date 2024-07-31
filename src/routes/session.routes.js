@@ -4,6 +4,7 @@ const { hashPassword, comparePassword } = require("../utils/bcrypt");
 const { sendPasswordResetEmail } = require("../utils/sendMail");
 const { userService } = require("../service");
 const { generateToke } = require("../utils/JWT");
+const logger = require("../utils/logger");
 
 const router = Router();
 
@@ -56,18 +57,24 @@ router.post("/acceso", async (req, res) => {
 
     const access_token = generateToke(tokeUser);
 
-    return res.status(200).send({
-      status: "ok",
-      ok: true,
-      stateMsj: "Bienvenido",
-      jwt: access_token,
-    });
+    return res
+      .status(200)
+      .cookie("jwtCoder", access_token, {
+        maxAge: 100000 * 60,
+        httpOnly: true,
+      })
+      .send({
+        status: "ok",
+        ok: true,
+        stateMsj: "Bienvenido",
+        jwt: access_token,
+      });
   } catch (error) {
-    console.log(error);
+    logger.error("Ocurrio un erro en session.routes.js Error: ", error);
     return res.status(500).send({
       status: 500,
       ok: false,
-      statusMessage:
+      stateMsj:
         "Ocurrio un error inesperado /n Por favor intente nuevamente mas tarde",
     });
   }

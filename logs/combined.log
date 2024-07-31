@@ -573,3 +573,52 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 2024-07-19T19:05:04.011Z [32minfo[39m: GET /home
 2024-07-19T19:05:04.168Z [32minfo[39m: Handling GET request for /
 2024-07-19T19:27:00.191Z [32minfo[39m: GET /adsfsdf
+2024-07-19T21:20:57.314Z [32minfo[39m: GET /home
+2024-07-19T21:20:57.795Z [32minfo[39m: Handling GET request for /
+2024-07-19T21:23:22.743Z [32minfo[39m: GET /home
+2024-07-19T21:23:22.908Z [32minfo[39m: Handling GET request for /
+2024-07-19T21:23:24.919Z [32minfo[39m: GET /session/acceso
+2024-07-19T21:23:31.811Z [32minfo[39m: POST /session/acceso
+2024-07-19T21:23:32.357Z [32minfo[39m: GET /home
+2024-07-19T21:23:32.517Z [32minfo[39m: Handling GET request for /
+2024-07-23T21:35:38.907Z [32minfo[39m: GET /home
+2024-07-23T21:35:39.084Z [32minfo[39m: Handling GET request for /
+2024-07-23T21:35:39.453Z [32minfo[39m: GET /favicon.ico
+2024-07-23T21:35:42.107Z [32minfo[39m: GET /home
+2024-07-23T21:35:42.276Z [32minfo[39m: Handling GET request for /
+2024-07-28T00:21:55.158Z [32minfo[39m: GET /checkout/passengers
+2024-07-28T00:21:55.165Z [32minfo[39m: GET /home
+2024-07-28T00:21:55.328Z [32minfo[39m: Handling GET request for /
+2024-07-28T00:21:55.730Z [32minfo[39m: GET /favicon.ico
+2024-07-28T00:22:19.324Z [32minfo[39m: GET /home
+2024-07-28T00:22:19.481Z [32minfo[39m: Handling GET request for /
+2024-07-28T00:22:21.062Z [32minfo[39m: GET /session/acceso
+2024-07-28T00:22:45.690Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:22:46.244Z [32minfo[39m: GET /home
+2024-07-28T00:22:46.402Z [32minfo[39m: Handling GET request for /
+2024-07-28T00:22:49.243Z [32minfo[39m: GET /session/logout
+2024-07-28T00:22:49.567Z [32minfo[39m: GET /home
+2024-07-28T00:22:49.718Z [32minfo[39m: Handling GET request for /
+2024-07-28T00:22:51.496Z [32minfo[39m: GET /home
+2024-07-28T00:22:51.648Z [32minfo[39m: Handling GET request for /
+2024-07-28T00:23:04.618Z [32minfo[39m: GET /session/acceso
+2024-07-28T00:23:07.302Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:23:17.694Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:24:18.077Z [32minfo[39m: GET /session/registro
+2024-07-28T00:24:32.369Z [32minfo[39m: POST /session/registro
+2024-07-28T00:24:49.463Z [32minfo[39m: POST /session/registro
+2024-07-28T00:24:51.663Z [32minfo[39m: GET /session/acceso
+2024-07-28T00:26:40.020Z [32minfo[39m: GET /session/registro
+2024-07-28T00:26:50.814Z [32minfo[39m: POST /session/registro
+2024-07-28T00:26:55.105Z [32minfo[39m: GET /session/acceso
+2024-07-28T00:26:56.475Z [32minfo[39m: GET /session/recuperarContrasena
+2024-07-28T00:26:57.521Z [32minfo[39m: GET /session/acceso
+2024-07-28T00:34:25.495Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:34:32.910Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:35:33.429Z [32minfo[39m: GET /session/acceso
+2024-07-28T00:35:51.780Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:36:02.790Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:36:03.009Z [31merror[39m: Ocurrio un erro en session.routes.js Error:  newToken is not defined
+2024-07-28T00:36:51.817Z [32minfo[39m: POST /session/acceso
+2024-07-28T00:36:52.384Z [32minfo[39m: GET /home
+2024-07-28T00:36:52.559Z [32minfo[39m: Handling GET request for /
