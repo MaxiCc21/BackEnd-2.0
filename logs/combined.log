@@ -832,3 +832,15 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 2024-07-31T18:31:04.470Z [32minfo[39m: POST /api/payment/create-payment-intent
 2024-07-31T18:31:12.075Z [32minfo[39m: GET /home
 2024-07-31T18:31:12.231Z [32minfo[39m: Handling GET request for /
+2024-07-31T19:44:54.454Z [32minfo[39m: GET /home
+2024-07-31T19:44:54.621Z [32minfo[39m: Handling GET request for /
+2024-07-31T19:44:56.228Z [32minfo[39m: GET /session/acceso
+2024-07-31T19:45:06.430Z [32minfo[39m: POST /session/acceso
+2024-07-31T19:45:07.011Z [32minfo[39m: GET /home
+2024-07-31T19:45:07.169Z [32minfo[39m: Handling GET request for /
+2024-07-31T19:45:18.174Z [32minfo[39m: GET /searchfly?flightType=ONE_WAY&from=Buenos+Aires&ticketClass=economy&not=1&dateFlight=2024-08-07
+2024-07-31T19:45:20.717Z [32minfo[39m: POST /searchfly
+2024-07-31T19:45:21.749Z [32minfo[39m: GET /checkout/passengers
+2024-07-31T19:45:47.641Z [32minfo[39m: POST /checkout/passengers
+2024-07-31T19:45:47.971Z [32minfo[39m: GET /api/payment
+2024-07-31T19:46:05.906Z [32minfo[39m: GET /api/payment
