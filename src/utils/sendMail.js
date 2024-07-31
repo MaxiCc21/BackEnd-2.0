@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 const UserModel = require("../models/user.model");
 const nodemailer = require("nodemailer");
-require("dotenv").config();
+const { GMAIL_USER_APP, GMAIL_PASS_APP } = require("../config/config");
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -9,8 +9,8 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_PASSWORD,
+    user: GMAIL_USER_APP,
+    pass: GMAIL_PASS_APP,
   },
 });
 exports.sendPasswordResetEmail = async (to) => {

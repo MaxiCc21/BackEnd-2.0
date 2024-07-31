@@ -892,3 +892,1081 @@ Require stack:
     at Module.load (node:internal/modules/cjs/loader:1207:32)
     at Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+2024-07-31T04:44:54.161Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:45:28.723Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:45:30.650Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:45:53.669Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:46:00.584Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:46:32.109Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:46:57.270Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:47:03.921Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:47:08.130Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:47:26.595Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:47:34.963Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:48:10.820Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:48:19.037Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:48:25.294Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:48:31.287Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:48:37.287Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:48:56.180Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:49:00.567Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:49:16.054Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:51:04.558Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:51:37.303Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:51:42.652Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:51:50.742Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:52:15.405Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:52:24.240Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:52:45.267Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:53:11.808Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:53:17.642Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:53:36.319Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:53:45.577Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:53:58.521Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:54:02.299Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:55:10.590Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:56:24.199Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:56:38.434Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:56:43.513Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:58:56.545Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:59:12.803Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:59:17.870Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T04:59:41.993Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T05:00:33.603Z [31merror[39m: uncaughtException: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../process/comander'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T05:02:47.226Z [31merror[39m: uncaughtException: commander.opts is not a function
+TypeError: commander.opts is not a function
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:3:28)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:29:18)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T05:05:01.070Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:53:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:05:16.236Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:05:27.073Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:05:36.480Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:05:53.045Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:06:37.134Z [31merror[39m: uncaughtException: commander is not defined
+ReferenceError: commander is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\process\comander.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\config\config.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T05:06:40.689Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:06:48.803Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:07:17.452Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:07:21.886Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:07:49.250Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:59:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:08:39.322Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:58:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:11:37.949Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:58:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:11:48.726Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:58:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:12:43.245Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:52:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:13:01.562Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:53:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:13:24.763Z [31merror[39m: uncaughtException: config is not defined
+ReferenceError: config is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:27:30)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:13:49.643Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:57:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:14:07.017Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:57:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:14:29.416Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:62:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:14:51.184Z [31merror[39m: uncaughtException: SECRET_KEY_SESSION is not defined
+ReferenceError: SECRET_KEY_SESSION is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:66:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:15:01.881Z [31merror[39m: uncaughtException: SECRET_KEY_SESSION is not defined
+ReferenceError: SECRET_KEY_SESSION is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:66:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:15:50.352Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:63:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:16:15.215Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:63:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:16:51.357Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:63:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:17:37.361Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:63:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:19:39.510Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:63:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:22:42.978Z [31merror[39m: uncaughtException: GMAIL_PASSWORD is not defined
+ReferenceError: GMAIL_PASSWORD is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\utils\sendMail.js:13:11)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\session.routes.js:4:36)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T05:22:51.426Z [31merror[39m: uncaughtException: GMAIL_PASSWORD is not defined
+ReferenceError: GMAIL_PASSWORD is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\utils\sendMail.js:13:11)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\session.routes.js:4:36)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T05:23:07.967Z [31merror[39m: uncaughtException: GMAIL_PASS_APP is not defined
+ReferenceError: GMAIL_PASS_APP is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\utils\sendMail.js:13:11)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\session.routes.js:4:36)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
