@@ -84,3 +84,27 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
     at ServerResponse.redirect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\response.js:953:18)
     at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:85:9
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-07-31T05:15:05.169Z [31merror[39m: unhandledRejection: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:206:11)
+    at NativeConnection.openUri (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongoose\lib\connection.js:801:34)
+    at Mongoose.connect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongoose\lib\mongoose.js:404:15)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:122:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T05:15:24.205Z [31merror[39m: unhandledRejection: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:206:11)
+    at NativeConnection.openUri (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongoose\lib\connection.js:801:34)
+    at Mongoose.connect (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\mongoose\lib\mongoose.js:404:15)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:120:12)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49

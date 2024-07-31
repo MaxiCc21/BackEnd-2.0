@@ -17,7 +17,12 @@ const { default: mongoose } = require("mongoose");
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
 const logger = require("./utils/logger");
-
+const {
+  PORT,
+  MONGO_URL_DB,
+  SECRET_KEY_COOKIE,
+  SECRET_KEY_SESSION,
+} = require("./config/config");
 app.use(express.json());
 app.use("/static", express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -45,15 +50,15 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 //todo -----------Swagger------------
 
 // configuracion de las cookies
-app.use(cookieParser(process.env.SECRET_KEY_COOKIE));
+app.use(cookieParser(SECRET_KEY_COOKIE));
 
 app.use(
   session({
     store: MongoStore.create({
-      mongoUrl: process.env.URL_MONGO,
+      mongoUrl: MONGO_URL_DB,
       ttl: 10 * 60,
     }),
-    secret: process.env.SECRET_KEY_SESSION,
+    secret: SECRET_KEY_SESSION,
     resave: false,
     saveUninitialized: false,
   })
@@ -101,14 +106,12 @@ app.get("*", (req, res) => {
   res.status(404).send("Page not found");
 });
 
-const port = process.env.PORT;
-
-app.listen(port, () =>
-  console.log(`La aplicacion esta corriendo en el puerto: ${port}!`)
+app.listen(PORT, () =>
+  console.log(`La aplicacion esta corriendo en el puerto: ${PORT}!`)
 );
 
 try {
-  mongoose.connect(process.env.URL_MONGO);
+  mongoose.connect(MONGO_URL_DB);
 
   console.log("Coneccion exitosa");
 } catch (error) {
