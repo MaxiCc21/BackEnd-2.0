@@ -10,6 +10,7 @@ const sessionRouter = require("./routes/session.routes");
 const searchflyRouter = require("./routes/searchfly.routes");
 const destinationRouter = require("./routes/destination.routes");
 const checkoutRouter = require("./routes/checkout.routes");
+const paymentRouter = require("./routes/payment.routes");
 
 const Handlebars = require("handlebars");
 const configureHandlebars = require("./config/handlebars");
@@ -22,6 +23,7 @@ const {
   MONGO_URL_DB,
   SECRET_KEY_COOKIE,
   SECRET_KEY_SESSION,
+  STRIPE_PRIV_SECRET_KEY,
 } = require("./config/config");
 app.use(express.json());
 app.use("/static", express.static(__dirname + "/public"));
@@ -31,7 +33,6 @@ app.use(bodyParser.json());
 //todo -----------Swagger------------
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
-
 const options = {
   definition: {
     openapi: "3.0.0",
@@ -101,7 +102,7 @@ app.use("/session", sessionRouter);
 app.use("/searchfly", searchflyRouter);
 app.use("/destination", destinationRouter);
 app.use("/checkout", checkoutRouter);
-
+app.use("/api/payment", paymentRouter);
 app.get("*", (req, res) => {
   res.status(404).send("Page not found");
 });

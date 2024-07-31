@@ -930,4 +930,36 @@ input[type=email]:focus {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+#card-element {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#payment-form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+#submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
 }/*# sourceMappingURL=styles.css.map */

@@ -14,6 +14,9 @@ module.exports = {
 
   SECRET_KEY_SESSION: process.env.SECRET_KEY_SESSION,
 
+  STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY,
+  STRIPE_PRIV_SECRET_KEY: process.env.STRIPE_PRIV_SECRET_KEY,
+
   MONGO_URL_DB: process.env.MONGO_URL_DB,
 
   GMAIL_USER_APP: process.env.GMAIL_USER_APP,

@@ -1970,3 +1970,1149 @@ ReferenceError: GMAIL_PASS_APP is not defined
     at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\session.routes.js:4:36)
     at Module._compile (node:internal/modules/cjs/loader:1376:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T14:33:03.676Z [31merror[39m: uncaughtException: Cannot init client. Please provide correct options
+Error: Cannot init client. Please provide correct options
+    at new MongoStore (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:123:19)
+    at MongoStore.create (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\connect-mongo\build\main\lib\MongoStore.js:140:16)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:57:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T14:34:20.037Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:34:29.542Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:34:42.962Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:34:48.732Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:34:57.004Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:35:05.272Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:35:11.636Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:35:18.461Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:35:24.072Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:35:41.873Z [31merror[39m: uncaughtException: paymentRouter is not defined
+ReferenceError: paymentRouter is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:105:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T14:35:47.726Z [31merror[39m: uncaughtException: paymentRouter is not defined
+ReferenceError: paymentRouter is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:105:21)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T14:36:19.559Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:37:22.685Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:37:28.011Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:37:47.818Z [31merror[39m: uncaughtException: handleCreatePaymentIntent is not defined
+ReferenceError: handleCreatePaymentIntent is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:14:39)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T14:37:55.698Z [31merror[39m: uncaughtException: handleCreatePaymentIntent is not defined
+ReferenceError: handleCreatePaymentIntent is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:14:39)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T14:38:00.682Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:38:18.370Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:38:42.152Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:38:58.145Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:39:05.363Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:39:07.377Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:39:21.757Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T14:39:32.413Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:05:00.542Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:05:03.949Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:05:17.653Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:06:41.971Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:06:44.579Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:06:53.266Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:07:17.146Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:07:26.329Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:09:03.482Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:09:25.161Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:09:33.087Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:09:37.876Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:10:14.435Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:10:22.632Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:10:41.163Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:11:37.843Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:16:45.452Z [31merror[39m: uncaughtException: paymentRoutes is not defined
+ReferenceError: paymentRoutes is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:105:26)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T15:17:10.953Z [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:105:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T15:17:17.692Z [31merror[39m: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\NewProgramacion\CoderHouse\BackEnd\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:105:5)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at node:internal/main/run_main_module:28:49
+2024-07-31T15:19:45.741Z [31merror[39m: uncaughtException: handleCreatePaymentIntent is not defined
+ReferenceError: handleCreatePaymentIntent is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:118:39)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:12:24)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T15:19:57.537Z [31merror[39m: uncaughtException: handleCreatePaymentIntent is not defined
+ReferenceError: handleCreatePaymentIntent is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:118:39)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:12:24)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T15:20:03.974Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:20:16.837Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:20:21.319Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:20:25.337Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:21:02.270Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:21:07.008Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:21:11.254Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:21:14.842Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:21:23.564Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:22:19.131Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:22:31.101Z [31merror[39m: uncaughtException: handleCreatePaymentIntent is not defined
+ReferenceError: handleCreatePaymentIntent is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:14:39)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T15:22:37.203Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:22:40.772Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:23:46.873Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:24:19.122Z [31merror[39m: uncaughtException: Cannot find module '../services/stripeService.js'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+Error: Cannot find module '../services/stripeService.js'
+Require stack:
+- C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js
+- C:\NewProgramacion\CoderHouse\BackEnd\src\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\controllers\paymentController.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+2024-07-31T15:25:12.549Z [31merror[39m: uncaughtException: handleCreatePaymentIntent is not defined
+ReferenceError: handleCreatePaymentIntent is not defined
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:11:39)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+2024-07-31T17:21:53.340Z [31merror[39m: uncaughtException: Invalid regular expression: missing /
+C:\NewProgramacion\CoderHouse\BackEnd\src\routes\payment.routes.js:13
+/
+^
+
+SyntaxError: Invalid regular expression: missing /
+    at internalCompileFunction (node:internal/vm:77:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1288:20)
+    at Module._compile (node:internal/modules/cjs/loader:1340:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\NewProgramacion\CoderHouse\BackEnd\src\app.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
