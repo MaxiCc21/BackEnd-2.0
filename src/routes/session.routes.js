@@ -3,6 +3,8 @@ const { Router } = require("express");
 const { hashPassword, comparePassword } = require("../utils/bcrypt");
 const { sendPasswordResetEmail } = require("../utils/sendMail");
 const { userService } = require("../service");
+const { generateToke } = require("../utils/JWT");
+const logger = require("../utils/logger");
 
 const router = Router();
 
@@ -32,31 +34,47 @@ router.post("/acceso", async (req, res) => {
       password,
       userExist.data.password
     );
-    if (samePassword) {
-      req.session.user = {
-        id: userExist.data._id,
-        email: userExist.data.email,
-        name: userExist.data.name,
-      };
-
-      return res.status(200).send({
-        status: "ok",
-        ok: true,
-        stateMsj: "Bienvenido",
-      });
-    } else {
+    if (!samePassword) {
       return res.status(400).send({
         status: "Error",
         ok: false,
         stateMsj: "La contraseña es incorrecta",
       });
     }
+
+    req.session.user = {
+      id: userExist.data._id,
+      email: userExist.data.email,
+      name: userExist.data.name,
+    };
+
+    const tokeUser = {
+      id: userExist.data._id,
+      email: userExist.data.email,
+      name: userExist.data.name,
+      role: userExist.data.status,
+    };
+
+    const access_token = generateToke(tokeUser);
+
+    return res
+      .status(200)
+      .cookie("jwtCoder", access_token, {
+        maxAge: 100000 * 60,
+        httpOnly: true,
+      })
+      .send({
+        status: "ok",
+        ok: true,
+        stateMsj: "Bienvenido",
+        jwt: access_token,
+      });
   } catch (error) {
-    console.log(error);
+    logger.error("Ocurrio un erro en session.routes.js Error: ", error);
     return res.status(500).send({
       status: 500,
       ok: false,
-      statusMessage:
+      stateMsj:
         "Ocurrio un error inesperado /n Por favor intente nuevamente mas tarde",
     });
   }

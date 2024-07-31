@@ -85,3 +85,4 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
     at C:\NewProgramacion\CoderHouse\BackEnd\src\routes\checkout.routes.js:85:9
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 2024-07-14T01:00:45.743Z [31merror[39m: File AircraftManager.js Error:  Cannot read properties of null (reading 'aircraftId')
+2024-07-28T00:36:03.009Z [31merror[39m: Ocurrio un erro en session.routes.js Error:  newToken is not defined

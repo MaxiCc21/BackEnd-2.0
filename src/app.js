@@ -96,6 +96,7 @@ app.use("/session", sessionRouter);
 app.use("/searchfly", searchflyRouter);
 app.use("/destination", destinationRouter);
 app.use("/checkout", checkoutRouter);
+
 app.get("*", (req, res) => {
   res.status(404).send("Page not found");
 });

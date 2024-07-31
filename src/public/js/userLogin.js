@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((data) => {
         console.log(data);
         if (data.ok) {
+          localStorage.setItem("authToken", data.jwt);
           Swal.fire({
             title: "Acceso exitoso",
             text: data.stateMsj,
